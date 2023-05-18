@@ -1,0 +1,13 @@
+import './bootstrap';
+import './jquery.min';
+import './bootstrap.min';
+import './cvtext1';
+import './cvtext2';
+import './isotope.pkgd.min';
+import './jquery.magnific-popup.min';
+import './swiper.min'
+import './circle-progress';
+import './jquery-jvectormap.min';
+import './jquery-jvectormap-world-mill';
+import './scrollbar';
+import './custom';
