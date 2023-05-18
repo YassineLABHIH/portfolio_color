@@ -2325,6 +2325,17 @@ h2.project_heading:after {
     -ms-transform: scale(1);
     -o-transform: scale(1);
 }
+
+.worked_with {
+    transition: transform .2s; /* Animation */
+    opacity: 0.5;
+}
+
+.worked_with:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
 /*================== 13 End responser section css ==================  */
 
 /*================== 14 Start map section css ==================  */
@@ -2379,6 +2390,16 @@ h2.project_heading:after {
 	color: #ff0000;
     padding-left: 18px;
     padding-top: 5px;
+}
+
+.select_services {
+    margin-bottom: 40px;
+
+}
+
+.service_checkbox {
+
+    padding: 5px;
 }
 /*================== 15 End contact section css ==================  */
 

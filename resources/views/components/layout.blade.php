@@ -9,16 +9,16 @@
 		content="Creative, minimal, Portfolio, cv, business, Resume, Information, personal portfolio, Professional">
 	<meta name="author" content="kamleshyadav">
 	<meta name="MobileOptimized" content="320">
-	
- 
+
+
 
 	<!-- Favicon Link -->
 	<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
 
 	<title>{{ $title }}</title>
 
-       <!--Start Style -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+	<!--Start Style -->
+	@vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body>
@@ -195,7 +195,7 @@
 		<div class="port_sidebar_social">
 			<div class="port__social_box">
 				<div class="port__followus">
-					<p>Follow Us</p>
+					<p>Follow Me</p>
 				</div>
 				<ul class="social_list">
 					<li>
@@ -235,8 +235,29 @@
 	</div>
 	<!-- End side bar -->
 
-    {{ $slot }}
+	{{ $slot }}
 
+	<div class="copy_right_wrapper ">
+		<div class="col-12 text-center">
+			<p class="copy_right">Copyright &copy; 2023 <a href="javascript:;">Portfolio Yassine Labhih.</a>
+				All Rights
+				Reserved</p>
+		</div>
+	</div>
+	</div>
+	</div><!-- End Footer section  -->
+	</div><!-- End contact wrapper  -->
+
+
+	</div>
+
+	<!-- ================== End inner section ================== -->
+
+	<!-- go to top button -->
+	<div class="bottom_top">
+		<i class="fas fa-arrow-up">
+		</i><i class="fas fa-arrow-up"></i>
+	</div>
 </body>
-</html>
 
+</html>
