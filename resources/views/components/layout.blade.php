@@ -1,39 +1,31 @@
 <!doctype html>
 <html lang="{{ $lang }}">
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta content="{{ $meta_description }}" name="description">
-	<meta name="keywords"
-		content="Creative, minimal, Portfolio, cv, business, Resume, Information, personal portfolio, Professional">
-	<meta name="author" content="kamleshyadav">
+	<meta name="keywords" content="{{ $meta_keywords }}">
+	<meta name="author" content="Yassine Labhih">
+	<meta name=" copyright" content="Yassine Labhih"/>
 	<meta name="MobileOptimized" content="320">
-
-
-
 	<!-- Favicon Link -->
 	<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
-
 	<title>{{ $title }}</title>
-
 	<!--Start Style -->
 	@vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-
 <body>
 	<!-- preloader section start -->
 	<div class="preloader">
 		<div class="status"><img src="{{ asset('images/loader.gif') }}" id="preloader_image" alt="loader">
 		</div>
 	</div>
-
 	<!-- start side bar -->
 	<div class="port_sidebar_wrapper mport_sidebar_wrapper">
 		<div class="port_sidebar_profile">
 			<a href="javascript:;" class="port_sidebar_position active">
 				<div class="profile_circle ">
-					<img src="{{ asset('images/avatar.png') }}" alt="profile-image" class="img-fluid" />
+					<img src="{{ asset('images/avatar.png') }}" alt="avatar of Yassine Labhih" class="img-fluid" />
 				</div>
 			</a>
 		</div>
@@ -54,7 +46,6 @@
 													result="compOut" />
 												<feBlend mode="normal" in="compOut" in2="SourceGraphic" />
 											</filter>
-
 										</defs>
 										<g filter="url(#Filter_0)">
 											<path fill-rule="evenodd" fill="rgb(14, 15, 33)"
@@ -63,7 +54,6 @@
 									</svg>
 								</span>
 								<span class="second_micon">
-
 									<svg class="nav_about_svg" xmlns="http://www.w3.org/2000/svg"
 										xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="26px">
 										<defs>
@@ -74,7 +64,6 @@
 													result="compOut" />
 												<feBlend mode="normal" in="compOut" in2="SourceGraphic" />
 											</filter>
-
 										</defs>
 										<g filter="url(#Filter_0)">
 											<path fill-rule="evenodd" fill="rgb(14, 15, 33)"
@@ -198,69 +187,56 @@
 					<p>Follow Me</p>
 				</div>
 				<ul class="social_list">
-
 					<li>
-						<a href="javascript:;" class="siderbar_icon">
+						<a href="https://www.linkedin.com/in/yassine-labhih-841a571b4/" class="siderbar_icon" target="blank">
 							<span class="first_icon"><i class="fab fa-linkedin-in nav_in"></i></span>
 							<span class="second_icon"><i class="fab fa-linkedin-in nav_in"></i></span>
 						</a>
 					</li>
 					<li>
-						<a href="javascript:;" class="siderbar_icon">
+						<a href="https://wa.me/33749911211" class="siderbar_icon" target="blank">
 							<span class="first_icon"><i class="fab fa-whatsapp nav_whats"></i></span>
 							<span class="second_icon"><i class="fab fa-whatsapp nav_whats"></i></span>
 						</a>
 					</li>
 					<li>
-						<a href="javascript:;" class="siderbar_icon">
+						<a href="https://www.google.com/search?q=Yassine+Labhih&stick=H4sIAAAAAAAA_-NgU1I1qDAxTzVISUuyNDIzS7E0NkyxMqgwNrdISjE3Nk8zNEs2N05MXcTKF5lYXJyZl6rgk5iUkZkBAPO8Dfc6AAAA&hl=fr&mat=CXA5JDwWyA-_ElcBpsFAC5sSP_sv7_8fCaDOfSUv3fgcn5-30G_5yaN3zV2Dw4uEfYEjaAx_cpVhpnGFDd-BWXsfyb_3ZCq17GIV51lGN0ZEPaIFZO8Fhd7j54-7casJggA&authuser=6" class="siderbar_icon" target="blank">
 							<span class="first_icon"><i class="fab fa-google nav_google"></i></span>
 							<span class="second_icon"><i class="fab fa-google nav_google"></i></span>
 						</a>
 					</li>
 					<li>
-						<a href="javascript:;" class="siderbar_icon">
+						<a href="https://github.com/YassineLABHIH" class="siderbar_icon" target="blank">
 							<span class="first_icon"><i class="fab fa-github nav_github"></i></span>
 							<span class="second_icon"><i class="fab fa-github nav_github"></i></span>
 						</a>
 					</li>
-
-				
-
 					<li>
-						
 					</li>
-
 				</ul>
-
 			</div>
 		</div>
-
-				<hr class="menu_hr">
-
-				<div class="dropup">
-					<div>
-						<x-english></x-english>
-					</div>
-					<div class="dropup-content">
-						<a href="#">
-							<x-english></x-english> En
-						</a>
-						<a href="#">
-							<x-french></x-french> Fr
-						</a>
-						<a href="#">
-							<x-arabic></x-arabic> Ar
-						</a>
-					</div>
-				</div>
-
+		<hr class="menu_hr">
+		<p class="lang_text">Language</p>
+		<div class="dropup">
+			<div>
+				<x-english></x-english>
+			</div>
+			<div class="dropup-content">
+				<a href="#">
+					<x-english></x-english> En
+				</a>
+				<a href="#">
+					<x-french></x-french> Fr
+				</a>
+				<a href="#">
+					<x-arabic></x-arabic> Ar
+				</a>
 			</div>
 		</div>
 	</div>
 	<!-- End side bar -->
-
 	{{ $slot }}
-
 	<div class="copy_right_wrapper ">
 		<div class="col-12 text-center">
 			<p class="copy_right">Copyright &copy; 2023 <a href="javascript:;">Portfolio Yassine Labhih.</a>
@@ -271,17 +247,12 @@
 	</div>
 	</div><!-- End Footer section  -->
 	</div><!-- End contact wrapper  -->
-
-
 	</div>
-
 	<!-- ================== End inner section ================== -->
-
 	<!-- go to top button -->
 	<div class="bottom_top">
 		<i class="fas fa-arrow-up">
 		</i><i class="fas fa-arrow-up"></i>
 	</div>
 </body>
-
 </html>

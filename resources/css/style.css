@@ -668,6 +668,21 @@ transform: translate(-50%,-50%);
 	font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
 }
+
+
+
+.lang_text {
+    font-size: 16px;
+    color: #222222;
+    padding: 0;
+    margin: 0;
+	position:relative;
+	font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+
 .port__social_box p:after {
 	content: "";
     position: absolute;
@@ -2913,7 +2928,7 @@ h2.project_heading:after {
   }
 
   .menu_hr {
-    margin: 0px 15px 10px 15 px;
+    margin: 0px 15px 10px 15px;
 
   
   }
