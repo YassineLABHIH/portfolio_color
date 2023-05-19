@@ -1248,41 +1248,41 @@
 
                                                             <div class="col-6">
                                                                 <div class="service_checkbox">
-                                                                    <p><input type="checkbox" name="" id=""> Showcase
+                                                                    <p><input class="accent-yellow" type="checkbox" name="" id=""> Showcase
                                                                         site</p>
                                                                 </div>
                                                                 <div class="service_checkbox">
-                                                                    <p><input type="checkbox" name="" id=""> E-commerce
+                                                                    <p><input class="accent-pink" type="checkbox" name="" id=""> E-commerce
                                                                         site</p>
                                                                 </div>
                                                                 <div class="service_checkbox">
-                                                                    <p><input type="checkbox" name="" id=""> Web
+                                                                    <p><input class="accent-orange" type="checkbox" name="" id=""> Web
                                                                         application</p>
                                                                 </div>
                                                                 <div class="service_checkbox">
-                                                                    <p><input type="checkbox" name="" id=""> Mobile app
+                                                                    <p><input class="accent-cyan" type="checkbox" name="" id=""> Mobile app
                                                                     </p>
                                                                 </div>
                                                                 <div class="service_checkbox">
-                                                                    <p><input type="checkbox" name="" id=""> Other</p>
+                                                                    <p><input class="accent-yellow" type="checkbox" name="" id=""> Other</p>
                                                                 </div>
                                                             </div>
 
 
                                                             <div class="col-6">
                                                                 <div class="service_checkbox">
-                                                                    <p><input type="checkbox" name="" id=""> Graphic
+                                                                    <p><input class="accent-yellow" type="checkbox" name="" id=""> Graphic
                                                                         design</p>
                                                                 </div>
                                                                 <div class="service_checkbox">
-                                                                    <p><input type="checkbox" name="" id=""> SEO</p>
+                                                                    <p><input class="accent-pink" type="checkbox" name="" id=""> SEO</p>
                                                                 </div>
                                                                 <div class="service_checkbox">
-                                                                    <p><input type="checkbox" name="" id="">
+                                                                    <p><input class="accent-orange" type="checkbox" name="" id="">
                                                                         Advertisement</p>
                                                                 </div>
                                                                 <div class="service_checkbox">
-                                                                    <p><input type="checkbox" name="" id=""> Video</p>
+                                                                    <p><input class="accent-cyan" type="checkbox" name="" id=""> Video</p>
                                                                 </div>
                                                             </div>
                                                         </div>

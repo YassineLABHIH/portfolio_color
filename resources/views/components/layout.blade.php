@@ -33,7 +33,7 @@
 		<div class="port_sidebar_profile">
 			<a href="javascript:;" class="port_sidebar_position active">
 				<div class="profile_circle ">
-					<img src="assets/images/profile.png" alt="profile-image" class="img-fluid" />
+					<img src="{{ asset('images/avatar.png') }}" alt="profile-image" class="img-fluid" />
 				</div>
 			</a>
 		</div>
@@ -198,12 +198,7 @@
 					<p>Follow Me</p>
 				</div>
 				<ul class="social_list">
-					<li>
-						<a href="javascript:;" class="siderbar_icon">
-							<span class="first_icon"><i class="fab fa-facebook-f nav_fb"></i></span>
-							<span class="second_icon"><i class="fab fa-facebook-f nav_fb"></i></span>
-						</a>
-					</li>
+
 					<li>
 						<a href="javascript:;" class="siderbar_icon">
 							<span class="first_icon"><i class="fab fa-linkedin-in nav_in"></i></span>
@@ -218,18 +213,47 @@
 					</li>
 					<li>
 						<a href="javascript:;" class="siderbar_icon">
-							<span class="first_icon"><i class="fab fa-twitter nav_twit"></i></span>
-							<span class="second_icon"><i class="fab fa-twitter nav_twit"></i></span>
+							<span class="first_icon"><i class="fab fa-google nav_google"></i></span>
+							<span class="second_icon"><i class="fab fa-google nav_google"></i></span>
 						</a>
 					</li>
 					<li>
 						<a href="javascript:;" class="siderbar_icon">
-							<span class="first_icon"><i class="fab fa-instagram nav_insta"></i></span>
-							<span class="second_icon"><i class="fab fa-instagram nav_insta"></i></span>
+							<span class="first_icon"><i class="fab fa-github nav_github"></i></span>
+							<span class="second_icon"><i class="fab fa-github nav_github"></i></span>
 						</a>
 					</li>
 
+				
+
+					<li>
+						
+					</li>
+
 				</ul>
+
+			</div>
+		</div>
+
+				<hr class="menu_hr">
+
+				<div class="dropup">
+					<div>
+						<x-english></x-english>
+					</div>
+					<div class="dropup-content">
+						<a href="#">
+							<x-english></x-english> En
+						</a>
+						<a href="#">
+							<x-french></x-french> Fr
+						</a>
+						<a href="#">
+							<x-arabic></x-arabic> Ar
+						</a>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
