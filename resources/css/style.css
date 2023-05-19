@@ -1,30 +1,30 @@
 /*--------------------- Copyright (c) 2022 --------------------------
-[Master Stylesheet] 
+[Master Stylesheet]
 Project: Portfolio Responsive HTML Template
 Version: 1.0.6
 Assigned to: ThemeForest
- ------------------------------------------------------------------- 
-[Table of contents] 
-01. Body 
-02. Reusable Css 
-03. Sidebar Css / .port_sidebar_wrapper 
+ -------------------------------------------------------------------
+[Table of contents]
+01. Body
+02. Reusable Css
+03. Sidebar Css / .port_sidebar_wrapper
 04. Banner Css / .port_bannerbg_wrapper
 05. About section Css / .port_about_setions
-06. Education section Css / .port_education_setions 
-07. Progress setions Css / .port_progress_setions 
-08. Experience setions Css / .port_experience_setions 
-09. Services setions Css / .port_services_setions 
-10. Projects_Setions Css / .port_projects_setions 
-11. Testimonial setions Css / .port_testimonial_setions  
-12. Blog setions Css / .port_blog_setions 
-13. sponsor setions Css / .port_responsor_setions  
-14. map setions Css / .port_map_setions  
-15. Contact setions Css / .port_contact_wrapper  
-16. footer setions Css / .port_footer_setions 
-17. Single blog setions  Css / .port_singleblog_wrapper 
-18. Go to top  Css / .bottom_top  
+06. Education section Css / .port_education_setions
+07. Progress setions Css / .port_progress_setions
+08. Experience setions Css / .port_experience_setions
+09. Services setions Css / .port_services_setions
+10. Projects_Setions Css / .port_projects_setions
+11. Testimonial setions Css / .port_testimonial_setions
+12. Blog setions Css / .port_blog_setions
+13. sponsor setions Css / .port_responsor_setions
+14. map setions Css / .port_map_setions
+15. Contact setions Css / .port_contact_wrapper
+16. footer setions Css / .port_footer_setions
+17. Single blog setions  Css / .port_singleblog_wrapper
+18. Go to top  Css / .bottom_top
 19. custom scrollbar Css
-20. Media Query Css 
+20. Media Query Css
 
 --------------------------------------------------------------------*/
 /* ================== 01 body start ================== */
@@ -32,9 +32,9 @@ body {
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
-    font-size: 15px; 
+    font-size: 15px;
     line-height: 1.5;
-    color: #222222; 
+    color: #222222;
     background-color: #fff;
 }
 
@@ -297,7 +297,7 @@ ul {
     right: 0;
     margin: auto;
     color: #fff;
-	
+
 }
 
 .portfolio_btn:hover span.first_text{
@@ -526,7 +526,7 @@ transform: translate(-50%,-50%);
 }
 
 .port_navigation .nav_list li .tooltip_box:hover span.menu_tooltip {
-	bottom:10px;	
+	bottom:10px;
 	opacity:1;
 	visibility:visible;
 }
@@ -781,7 +781,7 @@ transform: translate(-50%,-50%);
     -moz-transform: scale(1) ;
     -ms-transform: scale(1);
     -o-transform: scale(1) ;
-    transform: translate(0px,0px); 
+    transform: translate(0px,0px);
 }
 
 .bannner_leftpart h2.stranger {
@@ -846,19 +846,19 @@ p.banner_pera:after {
 .port_btn:hover{
 	color:#ffffff;
 	box-shadow: 0px 8px 20px 0px rgba(255, 196, 85, 0.3);
-	-webkit-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3); 
+	-webkit-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3);
 	-moz-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3);
-	-o-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3); 
-	-ms-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3); 
+	-o-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3);
+	-ms-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3);
 }
 
 .portfolio_btn.btn_yellow {
     margin-right: 26px;
 	box-shadow: 0px 8px 20px 0px rgba(255, 196, 85, 0.3);
-	-webkit-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3); 
+	-webkit-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3);
 	-moz-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3);
-	-o-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3); 
-	-ms-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3); 
+	-o-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3);
+	-ms-box-shadow:0px 8px 20px 0px rgba(255, 196, 85, 0.3);
 	color: #fff;
 }
 .portfolio_btn.btn_yellow:hover {
@@ -902,13 +902,13 @@ p.banner_pera:after {
     -moz-transform: scale(0) ;
     -ms-transform: scale(0);
     -o-transform: scale(0) ;
-    transform: scale(0); 
+    transform: scale(0);
 }
 .banner_svg_box.mbanner_svg_box{
-    -webkit-transform: scale(1); 
-    -moz-transform: scale(1); 
-    -ms-transform: scale(1); 
-    -o-transform: scale(1); 
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
     transform: scale(1) ;
 }
 
@@ -1304,7 +1304,7 @@ span.value a {
     padding: 35px;
     transition: transform .2s; /* Animation */
    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.09);
-    
+
     background-color: #ffffff;
    margin: 30px;
 }
@@ -1563,28 +1563,28 @@ h3.education_place {
 .education_box.fourthbox .edu_mainyear h1:after {
     border-right-color:rgb(0, 200, 218);
 }
-.education_box.firstbox .edu_mainyear  h1:before{ 
+.education_box.firstbox .edu_mainyear  h1:before{
 	border-color:rgb(255, 81, 126);
 }
-.education_box.secondbox .edu_mainyear  h1:before{ 
+.education_box.secondbox .edu_mainyear  h1:before{
 	 border-color:rgb(255, 196, 84);
 }
-.education_box.thirdbox .edu_mainyear  h1:before{ 
+.education_box.thirdbox .edu_mainyear  h1:before{
 	 border-color:rgb(255, 117, 74);
 }
-.education_box.fourthbox .edu_mainyear  h1:before{ 
+.education_box.fourthbox .edu_mainyear  h1:before{
 	border-color:rgb(0, 200, 218);
 }
-.education_box.firstbox .edu_mainyear:after { 
+.education_box.firstbox .edu_mainyear:after {
 	background:rgb(255, 81, 126);
 }
-.education_box.secondbox .edu_mainyear:after { 
+.education_box.secondbox .edu_mainyear:after {
 	 background:rgb(255, 196, 84);
 }
-.education_box.thirdbox .edu_mainyear:after { 
+.education_box.thirdbox .edu_mainyear:after {
 	 background:rgb(255, 117, 74);
 }
-.education_box.fourthbox .edu_mainyear:after { 
+.education_box.fourthbox .edu_mainyear:after {
 	background:rgb(0, 200, 218);
 }
 .port_projects_setions.port_projects_setions01.page_scroll {
@@ -2081,7 +2081,7 @@ h2.project_heading:after {
 }
 .port_testimonial_setions .testimonial_icon:hover path{
 	fill:#00c8da;
-	
+
 }
 .port_testimonial_setions .testimonial_icon:hover.testimonial_icon {
     background: #ebebeb;
@@ -2171,7 +2171,7 @@ h2.project_heading:after {
 }
 
 /* End pulse effects */
-	
+
 /*================== 11 End testimonial section css ==================  */
 
 /*================== 12 Start blog main section css ==================  */
@@ -2374,8 +2374,8 @@ h2.project_heading:after {
     height: 586px;
 }
 .port_map_setions .jvmap-smart{
-    width: 100%; 
-    height: 100%;  
+    width: 100%;
+    height: 100%;
 }
 .map-container:after, .clearfix{
     display: block;
@@ -2471,7 +2471,7 @@ h2.project_heading:after {
 }
 .port_footer_setions .footer_contact_info p{
 	word-break:break-all;
-	
+
 }
 /*================== 16 End footer section css ==================  */
 
@@ -2511,7 +2511,7 @@ h2.project_heading:after {
     transition: all 0.3s ease-in-out;
 }
 .blog_postinfo ul li a:hover, .blog_shareinfo .blog_tag a:hover {
-    color: #ff517e;	
+    color: #ff517e;
 }
 .blog_postinfo ul li a i, .blog_shareinfo .blog_tag a i {
     padding-right: 5px;
@@ -2565,7 +2565,7 @@ h2.project_heading:after {
     margin-right: 10px;
 }
 .blog_shareinfo .siderbar_icon{
-	display:block;	
+	display:block;
     font-size: 20px;
 }
 .blog_wrapper .blog_comment {
@@ -2741,7 +2741,7 @@ h2.project_heading:after {
 .widget .widget_title:before{
     background: red;
 	width:0px;
-    left: 50px;	
+    left: 50px;
 	z-index:2;
 }
 .widget:hover .widget_title::before{
@@ -2893,17 +2893,17 @@ h2.project_heading:after {
 
 /* Dropup Button */
 
-  
+
   /* The container <div> - needed to position the dropup content */
   .dropup {
     margin: 0px 0px 10px 0px;
     position: relative;
     display: inline-block;
   }
-  
+
   /* Dropup content (Hidden by Default) */
   .dropup-content {
-  
+
     display: none;
     position: fixed;
     bottom: 25px;
@@ -2912,16 +2912,16 @@ h2.project_heading:after {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 3;
   }
-  
+
   /* Links inside the dropup */
   .dropup-content a {
     color:#777777;
     display: block;
   }
-  
+
   /* Change color of dropup links on hover */
   .dropup-content a:hover {background-color: #ffffff}
-  
+
   /* Show the dropup menu on hover */
   .dropup:hover .dropup-content {
     display: block;
@@ -2930,9 +2930,9 @@ h2.project_heading:after {
   .menu_hr {
     margin: 0px 15px 10px 15px;
 
-  
+
   }
-  
+
 
 
 /*================== 19 start custom scroll bar css ==================  */
@@ -2987,11 +2987,11 @@ h2.project_heading:after {
     margin-bottom: 50px;
 }
 
-	
+
 }
 @media (min-width:992px) and (max-width:1199px) {
 	.right_section h2.about_tophead {
-    font-size: 30px;	
+    font-size: 30px;
 	}
 .anout_section_btn .portfolio_btn.btn_yellow {
     margin-right: 15px;
@@ -3093,7 +3093,7 @@ h2.project_heading:after {
     }
     .education_right .prt_rightside_title {
         left: 0;
-       
+
         right: 0;
         text-align: center;
         width: 100%;
@@ -3211,7 +3211,7 @@ h2.project_heading:after {
     top: -34px;
 }
 .education_box.secondbox .edu_mainyear h1:after {
-    border-right-color:transparent; 
+    border-right-color:transparent;
     border-bottom-color: rgb(255, 196, 84);
 }
 .education_box.fourthbox .edu_mainyear h1:after {
@@ -3382,7 +3382,7 @@ p.banner_pera {
     margin-top: 30px;
 }
 
-	
+
 }
 @media (max-width:480px) {
     .port_singleblog_wrapper {
@@ -3520,7 +3520,7 @@ p.banner_pera {
    display:none;
 }
 .selfintro_section .left_deatils {
-   
+
     padding: 15px 15px;
 }
 .education_mright.education_right {

@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/en', [Controller::class, 'index_en'])->name('english');
 
+Route::post('/en', [Controller::class, 'contact_en'])->name('contact.english');
+
