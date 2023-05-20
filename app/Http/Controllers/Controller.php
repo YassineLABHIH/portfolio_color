@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\Contact;
 use DateTime;
 use Error;
+use Stevebauman\Location\Facades\Location;
 use Illuminate\Console\View\Components\Alert;
 use Illuminate\Contracts\Session\Session;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
@@ -18,6 +19,19 @@ use Illuminate\Support\Facades\URL;
 class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
+
+    public function index(Request $request)
+    {
+
+        $ip = $request->ip();
+        $currentUserInfo = Location::get($ip);
+
+        if (isset(Location::get($ip)->countryCode) && Location::get($ip)->countryCode == 'FR') {
+            return redirect()->route('french');
+        } else {
+            return redirect()->route('english');
+        }
+    }
 
     public function index_en(Request $request)
     {

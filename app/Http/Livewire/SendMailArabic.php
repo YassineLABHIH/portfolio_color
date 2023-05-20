@@ -71,7 +71,7 @@ class SendMailArabic extends Component
 
         Mail::to('contact@yassinelabhih.com')->send(new Contact($customer));
 
-        Alert::success('Message Envoyé Avec Succès', 'Je vous recontacte sous 24 heures');
+        Alert::success('تم ارسال الرسالة بنجاح', 'سأتصل بك في غضون 24 ساعة');
 
         return redirect()->route('arabic');
     }
