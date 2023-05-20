@@ -16,5 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/en', [Controller::class, 'index_en'])->name('english');
 
-Route::post('/en', [Controller::class, 'contact_en'])->name('contact.english');
+Route::get('/fr', [Controller::class, 'index_fr'])->name('french');
 
+Route::get('/ar', [Controller::class, 'index_ar'])->name('arabic');

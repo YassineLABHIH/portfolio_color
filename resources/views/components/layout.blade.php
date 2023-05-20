@@ -13,8 +13,13 @@
 	<title>{{ $title }}</title>
 	<!--Start Style -->
 	@vite(['resources/css/app.css', 'resources/js/app.js'])
+    @livewireStyles
 </head>
 <body>
+    @include('sweetalert::alert')
+    @if (session('success'))
+    <div> {{ session('success') }}</div>
+    @endif
 	<!-- preloader section start -->
 	<div class="preloader">
 		<div class="status"><img src="{{ asset('images/loader.gif') }}" id="preloader_image" alt="loader">
@@ -244,15 +249,14 @@
 				Reserved</p>
 		</div>
 	</div>
-	</div>
 	</div><!-- End Footer section  -->
 	</div><!-- End contact wrapper  -->
-	</div>
 	<!-- ================== End inner section ================== -->
 	<!-- go to top button -->
 	<div class="bottom_top">
 		<i class="fas fa-arrow-up">
 		</i><i class="fas fa-arrow-up"></i>
 	</div>
+    @livewireScripts
 </body>
 </html>

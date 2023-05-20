@@ -34,7 +34,7 @@ class Controller extends BaseController
         $today = new Datetime(date('m.d.y'));
         $age = $today->diff($birth)->y;
 
-        return view('en.home', compact('age'));
+        return view('fr.home', compact('age'));
     }
 
     public function index_ar(Request $request)
@@ -43,41 +43,8 @@ class Controller extends BaseController
         $today = new Datetime(date('m.d.y'));
         $age = $today->diff($birth)->y;
 
-        return view('en.home', compact('age'));
+        return view('ar.home', compact('age'));
     }
 
-    public function contact_en(Request $request)
-    {
 
-
-
-        $validate = $request->validate([
-            'first_name' => 'required|string',
-            'last_name' => 'required|string',
-            'email' => 'required_without:tel|email',
-            'tel' => 'required_without:email|numeric|min:10',
-            'subject' => 'string|nullable',
-            'message' => 'string|nullable'
-        ]);
-
-
-        $customer['first_name'] = $request->first_name;
-        $customer['last_name'] = $request->last_name;
-        $customer['email'] = $request->email;
-        $customer['tel'] = $request->tel;
-        $customer['showcase_site'] = $request->showcase_site;
-        $customer['e-commerce'] = $request->ecommerce;
-        $customer['web_app'] = $request->web_app;
-        $customer['mobile_app'] = $request->mobile_app;
-        $customer['graphic_design'] = $request->graphic_design;
-        $customer['seo'] = $request->seo;
-        $customer['advertisement'] = $request->advertisement;
-        $customer['other'] = $request->other;
-        $customer['subject'] = $request->subject;
-        $customer['message'] = $request->message;
-
-        Mail::to('contact@yassinelabhih.com')->send(new Contact($customer));
-
-
-    }
 }

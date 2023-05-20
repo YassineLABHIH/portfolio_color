@@ -1167,5 +1167,5 @@
                                 </div>
                             </div>
                         </div><!-- End map section  -->
-                        @livewire('send-mail-english')
+                        @livewire('send-mail-french')
 </x-layout>
