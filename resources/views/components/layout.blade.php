@@ -10,7 +10,7 @@
     <meta name=" copyright" content="Yassine Labhih" />
     <meta name="MobileOptimized" content="320">
     <!-- Favicon Link -->
-    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/favicon.png') }}">
     <title>{{ $title }}</title>
     <!--Start Style -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -30,7 +30,7 @@
     <!-- start side bar -->
     <div class="port_sidebar_wrapper mport_sidebar_wrapper">
         <div class="port_sidebar_profile">
-            <a href="javascript:;" class="port_sidebar_position active">
+            <a href="#home" class="port_sidebar_position active">
                 <div class="profile_circle ">
                     <img src="{{ asset('images/avatar.png') }}" alt="avatar of Yassine Labhih" class="img-fluid" />
                 </div>

@@ -18,7 +18,7 @@
                     indépendant, développeur web full-stack , développeur PHP
                     </x-slot>
                     <!-- start banner section -->
-                    <div class="port_bannerbg_wrapper">
+                    <div class="port_bannerbg_wrapper" id="home">
                         <!-- start banner wrapper -->
                         <div class="port_banner_wrapper" id="cv_container">
                             <div class="container-fluid">
