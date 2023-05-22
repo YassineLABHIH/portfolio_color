@@ -35,7 +35,7 @@ class Controller extends BaseController
 
     public function index_en(Request $request)
     {
-        $birth = new DateTime('30.10.1991'); // Your date of birth
+        $birth = new DateTime('30.10.1991');
         $today = new Datetime(date('m.d.y'));
         $age = $today->diff($birth)->y;
 
@@ -44,7 +44,7 @@ class Controller extends BaseController
 
     public function index_fr(Request $request)
     {
-        $birth = new DateTime('30.10.1991'); // Your date of birth
+        $birth = new DateTime('30.10.1991');
         $today = new Datetime(date('m.d.y'));
         $age = $today->diff($birth)->y;
 
@@ -53,7 +53,7 @@ class Controller extends BaseController
 
     public function index_ar(Request $request)
     {
-        $birth = new DateTime('30.10.1991'); // Your date of birth
+        $birth = new DateTime('30.10.1991');
         $today = new Datetime(date('m.d.y'));
         $age = $today->diff($birth)->y;
 
