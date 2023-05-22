@@ -17,17 +17,16 @@
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <input wire:model.lazy='first_name' type="text" name="first_name"
-                                                class="form-control require" id="name" placeholder="First name">
+                                                class="form-control require" id="name" placeholder="الاسم الأول">
                                             @error('first_name')
                                             <p class="response">{{ $message }}</p>
                                             @enderror
                                         </div>
-
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <input wire:model.lazy='last_name' type="text" name="last_name"
-                                                class="form-control require" id="last-name" placeholder="Last name">
+                                                class="form-control require" id="last-name" placeholder="اسم العائلة">
                                             @error('last_name')
                                             <p class="response">{{ $message }}</p>
                                             @enderror
@@ -36,7 +35,7 @@
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <input wire:model.lazy='email' type="email" name="email"
-                                                class="form-control require" id="email" placeholder="Email Address"
+                                                class="form-control require" id="email" placeholder="بريد إلكتروني"
                                                 data-valid="email" data-error="Email should be valid.">
                                             @error('email')
                                             <p class="response">{{ $message }}</p>
@@ -46,44 +45,41 @@
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <input wire:model.lazy='tel' type="tel" name="tel"
-                                                class="form-control require" id="tel" placeholder="Phone number">
+                                                class="form-control require" id="tel" placeholder="هاتف">
                                             @error('tel')
                                             <p class="response">{{ $message }}</p>
                                             @enderror
                                         </div>
                                     </div>
                                     <div class="select_services row">
-                                        <p class="mb-3">What service(s) do you need ?</p>
+                                        <p class="mb-3">ما الخدمات التي تحتاجها ؟</p>
                                         <div class="col-6">
                                             <div class="service_checkbox">
                                                 <p><input class="accent-yellow" type="checkbox" name="" id="">
-                                                    Showcase
-                                                    site</p>
+                                                    عرض الموقع</p>
                                             </div>
                                             <div class="service_checkbox">
                                                 <p><input class="accent-pink" type="checkbox" name="" id="">
-                                                    E-commerce
-                                                    site</p>
+                                                    موقع التجارة الإلكترونية</p>
                                             </div>
                                             <div class="service_checkbox">
-                                                <p><input class="accent-orange" type="checkbox" name="" id=""> Web
-                                                    application</p>
+                                                <p><input class="accent-orange" type="checkbox" name="" id=""> تطبيق
+                                                    الويب</p>
                                             </div>
                                             <div class="service_checkbox">
                                                 <p><input class="accent-cyan" type="checkbox" name="" id="">
-                                                    Mobile app
+                                                    تطبيق الهاتف المحمول
                                                 </p>
                                             </div>
                                             <div class="service_checkbox">
-                                                <p><input class="accent-yellow" type="checkbox" name="" id=""> Other
+                                                <p><input class="accent-yellow" type="checkbox" name="" id=""> آخر
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="service_checkbox">
                                                 <p><input class="accent-yellow" type="checkbox" name="" id="">
-                                                    Graphic
-                                                    design</p>
+                                                    التصميم الجرافيكي</p>
                                             </div>
                                             <div class="service_checkbox">
                                                 <p><input class="accent-pink" type="checkbox" name="" id=""> SEO
@@ -91,10 +87,10 @@
                                             </div>
                                             <div class="service_checkbox">
                                                 <p><input class="accent-orange" type="checkbox" name="" id="">
-                                                    Advertisement</p>
+                                                    إعلان</p>
                                             </div>
                                             <div class="service_checkbox">
-                                                <p><input class="accent-cyan" type="checkbox" name="" id=""> Video
+                                                <p><input class="accent-cyan" type="checkbox" name="" id=""> فيديو
                                                 </p>
                                             </div>
                                         </div>
@@ -102,7 +98,7 @@
                                     <div class="col-sm-12">
                                         <div class="form-group">
                                             <input wire:model.lazy='subject' type="text" name="subject"
-                                                class="form-control" id="subject" placeholder="Subject">
+                                                class="form-control" id="subject" placeholder="موضوع">
                                             @error('subject')
                                             <p class="response">{{ $message }}</p>
                                             @enderror
@@ -112,7 +108,7 @@
                                         <div class="form-group">
                                             <textarea wire:model.lazy='message' name="message"
                                                 class="form-control require" rows="3" id="comment"
-                                                placeholder="Message"></textarea>
+                                                placeholder="رسالة"></textarea>
                                             @error('subject')
                                             <p class="message">{{ $message }}</p>
                                             @enderror
@@ -122,8 +118,8 @@
                                         <div class="banner_btn">
                                             <button type="submit" data-type="contact"
                                                 class="portfolio_btn btn_red submitForm">
-                                                <span class="first_text">Submit</span>
-                                                <span class="second_text">Send</span>
+                                                <span class="first_text">يقدم</span>
+                                                <span class="second_text">يرسل</span>
                                             </button>
                                         </div>
                                     </div>
@@ -220,9 +216,9 @@
                                     </g>
                                 </svg>
                             </div>
-                            <h2 class="footer_heading">Location</h2>
-                            <p>Saint-Etienne-du-Rouvray</p>
-                            <p>Normandie - France</p>
+                            <h2 class="footer_heading">العنوان</h2>
+                            <p>سانت إتيان دو روفراي</p>
+                            <p>نورماندي - فرنسا</p>
                         </div>
                     </div>
                     <div class="col-sm-4 text-center">
@@ -276,7 +272,7 @@
                                     </g>
                                 </svg>
                             </div>
-                            <h2 class="footer_heading">Contact Me</h2>
+                            <h2 class="footer_heading">اتصل بي</h2>
                             <p><a href="javascript:;">+(33)7 49 91 12 11</a></p>
                         </div>
                     </div>
@@ -336,7 +332,7 @@
                                     </g>
                                 </svg>
                             </div>
-                            <h2 class="footer_heading">Email Me</h2>
+                            <h2 class="footer_heading">راسلني</h2>
                             <p><a href="javascript:;">contact@yassinelabhih.com</a></p>
                         </div>
                     </div>

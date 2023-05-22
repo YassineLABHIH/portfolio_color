@@ -79,7 +79,7 @@
                                     </svg>
                                 </span>
                             </a>
-                            <span class="menu_tooltip">About</span>
+                            <span class="menu_tooltip">@if (Route::is('english'))About @endif @if (Route::is('french'))À propos @endif @if (Route::is('arabic'))عني @endif</span>
                         </div>
                     </li>
                     <li data-number="1">
@@ -100,7 +100,7 @@
                                     </svg>
                                 </span>
                             </a>
-                            <span class="menu_tooltip">Portfolio</span>
+                            <span class="menu_tooltip">@if (Route::is('english') || Route::is('french'))Portfolio @endif @if (Route::is('arabic')) ملف @endif</span>
                         </div>
                     </li>
                     <li data-number="2">
@@ -137,7 +137,7 @@
                                     </svg>
                                 </span>
                             </a>
-                            <span class="menu_tooltip">Testimonial</span>
+                            <span class="menu_tooltip">@if (Route::is('english')) Testimonials @endif @if (Route::is('french')) Témoignages @endif @if (Route::is('arabic')) شهادات @endif</span>
                         </div>
                     </li>
                     <li data-number="3">
@@ -182,7 +182,7 @@
                                     </svg>
                                 </span>
                             </a>
-                            <span class="menu_tooltip">Contact</span>
+                            <span class="menu_tooltip">@if (Route::is('english') || Route::is('french')) Contact @endif @if (Route::is('arabic')) اتصال @endif</span>
                         </div>
                     </li>
                 </ul>
@@ -191,7 +191,7 @@
         <div class="port_sidebar_social">
             <div class="port__social_box">
                 <div class="port__followus">
-                    <p>Follow Me</p>
+                    <p>@if (Route::is('english') || Route::is('arabic')) Follow Me @endif @if (Route::is('french')) Suivez moi @endif</p>
                 </div>
                 <ul class="social_list">
                     <li>
@@ -226,7 +226,7 @@
             </div>
         </div>
         <hr class="menu_hr">
-        <p class="lang_text">Language</p>
+        <p class="lang_text">@if (Route::is('english')) Language @endif @if (Route::is('french')) Langue @endif @if (Route::is('arabic')) لغة @endif</p>
         <div class="dropup">
             <div>
                 @if (Route::is('english'))

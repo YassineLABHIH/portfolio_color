@@ -1,21 +1,20 @@
 <x-layout>
-
     <!-- html lang -->
     <x-slot:lang>
-        en
+        ar
         </x-slot>
         <!-- title tag -->
         <x-slot:title>
-            Yassine Labhih - Freelance full-stack developer
+            ياسين لبحيح - مطور مستقل كامل المكدس
             </x-slot>
             <!-- meta tag description -->
             <x-slot:meta_description>
-                Full-Stack freelance developer - I develop a showcase site, e-commerce site, web and mobile application,
-                and all other requests. I master: HTML5 CSS3 JavaScript Php (Symfony / Laravel).
+                مطور مكدس كامل مستقل - أقوم بتطوير موقع العرض وموقع التجارة الإلكترونية وتطبيقات الويب والجوال وجميع
+                الطلبات الأخرى. أتقن: HTML5 CSS3 JavaScript Php (Symfony / Laravel).
                 </x-slot>
                 <!-- meta tag keywords -->
                 <x-slot:meta_keywords>
-                    developer, freelance developer, independent developer, full-stack developer, PHP developer
+                    مطور, مطور ويب, مطور مستقل , مطور مكدس كامل , مطور PHP
                     </x-slot>
                     <!-- start banner section -->
                     <div class="port_bannerbg_wrapper">
@@ -43,8 +42,8 @@
                                             </div>
                                             <div class="brc_hirebtn">
                                                 <a href="#contact_section" class="portfolio_btn btn_orange">
-                                                    <span class="first_text">Hire Me</span>
-                                                    <span class="second_text">Hire</span>
+                                                    <span class="first_text">وظفني</span>
+                                                    <span class="second_text">وظف</span>
                                                 </a>
                                             </div>
                                         </div>
@@ -53,7 +52,7 @@
                                         <div class="banner_content">
                                             <div class="bannner_leftpart">
                                                 <h2 class="stranger">HELLO <span class="stran">World !</span></h2>
-                                                <h1 class="banner_name">Yassine Labhih</h1>
+                                                <h1 class="banner_name">ياسين لبحيح</h1>
                                                 <p class="banner_pera"> I'm </p>
                                                 <div class="banner_typingtext">
                                                     <ul class="texts home-desc">
@@ -67,12 +66,12 @@
                                                     <a href="{{ asset('docs/cv_labhih_yassine_blue.pdf') }}"
                                                         download="resume_yassine_labhih"
                                                         class="portfolio_btn btn_yellow">
-                                                        <span class="first_text">Download CV</span>
-                                                        <span class="second_text">Download</span>
+                                                        <span class="first_text">تحميل سيرتي الذاتية</span>
+                                                        <span class="second_text">تحميل</span>
                                                     </a>
                                                     <a href="#contact_section" class="portfolio_btn btn_red">
-                                                        <span class="first_text">Send Message</span>
-                                                        <span class="second_text">Send</span>
+                                                        <span class="first_text">أرسل رسالة</span>
+                                                        <span class="second_text">يرسل</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -100,9 +99,9 @@
                                                 <div class="img_warapper">
                                                     <img class="img-fluid"
                                                         src="{{ asset('images/avatar_445x490.png') }}"
-                                                        alt="Avatar of Yassine Labhih"
-                                                        title="more information click + icon">
-                                                    <div class="icon" title="more information click + icon">
+                                                        alt="الصورة الرمزية لـياسين لبحيح"
+                                                        title="more inتدريب click + icon">
+                                                    <div class="icon" title="more inتدريب click + icon">
                                                         <div class="iconbox">
                                                             <i class="fa fa-plus icon_plus" aria-hidden="true"></i>
                                                             <i class="fa fa-minus icon_minus" aria-hidden="true"></i>
@@ -111,24 +110,25 @@
                                                 </div>
                                                 <div class="left_deatils">
                                                     <div class="personal_details">
-                                                        <h1 class="ps_name">Yassine Labhih</h1>
-                                                        <p class="ps_designation">Full-stack Developer</p>
+                                                        <h1 class="ps_name">ياسين لبحيح</h1>
+                                                        <p class="ps_designation">مطور كامل المكدس</p>
                                                         <ul class="info-list">
-                                                            <li><span class="title">Age</span><span class="value">{{
+                                                            <li><span class="title">عمر</span><span class="value">{{
                                                                     $age }}</span></li>
-                                                            <li><span class="title">Address</span><span
-                                                                    class="value">Saint-Etienne-du-Rouvray (France)
+                                                            <li><span class="title">عنوان</span><span class="value">سانت
+                                                                    إتيان دو روفراي (فرنسا)
                                                                 </span>
                                                             </li>
-                                                            <li><span class="title">E-mail</span><span class="value"><a
+                                                            <li><span class="title">بريد إلكتروني</span><span
+                                                                    class="value"><a
                                                                         href="mailto:email@example.com">contact@yassinelabhih.com</a></span>
                                                             </li>
-                                                            <li><span class="title">Phone</span><span class="value">+33
+                                                            <li><span class="title">هاتف</span><span class="value">+33
                                                                     7 49
                                                                     91 12 11
                                                                 </span></li>
-                                                            <li><span class="title">Freelance</span><span
-                                                                    class="value available">Available</span></li>
+                                                            <li><span class="title">مستقل</span><span
+                                                                    class="value available">متوفر</span></li>
                                                         </ul>
                                                         <ul class="social-links">
                                                             <li><a class="tip social-button"
@@ -150,56 +150,45 @@
                                             <div class="right_section">
                                                 <div class="port_heading_wrapper">
                                                     <div class="port_sub_heading_wrapper">
-                                                        <h2 class="port_sub_heading">About Me </h2>
+                                                        <h2 class="port_sub_heading">عني </h2>
                                                     </div>
                                                 </div>
-                                                <h2 class="about_tophead">let's start with the introductions !</h2>
-                                                <p class="about_deatils">I am a {{ $age }}-year-old
-                                                    passionate web
-                                                    developer
-                                                    with strong autonomy
-                                                    and
-                                                    extensive
-                                                    marketing experience. This allows me to understand customer
-                                                    needs and
-                                                    create
-                                                    sites and applications that meet their expectations, while
-                                                    optimizing
-                                                    their
-                                                    visibility and attractiveness on the market.</p>
-                                                <p>I am constantly looking for
-                                                    new
-                                                    challenges and innovative projects that allow me to put my
-                                                    technical and
-                                                    creative skills into practice. I like to work for hours to
-                                                    achieve set
-                                                    goals
-                                                    and
-                                                    get the best possible results. If you are looking for a
-                                                    competent,
-                                                    passionate
-                                                    and dedicated professional, I am the person for you.</p>
+                                                <h2 class="about_tophead"> ! لنبدأ بالمقدمات</h2>
+                                                <p class="about_deatils">
+                                                <p>أنا مطور ويب شغوف يبلغ من العمر {{ $age }} عامًا ويتمتع باستقلالية
+                                                    قوية
+                                                    وخبرة تسويقية واسعة النطاق. يتيح لي ذلك فهم احتياجات العملاء وإنشاء
+                                                    مواقع وتطبيقات تلبي توقعاتهم ، مع تحسين ظهورهم وجاذبيتهم في السوق.
+                                                </p>
+                                                <p> أنا
+                                                    أبحث باستمرار عن تحديات جديدة ومشاريع مبتكرة تسمح لي بوضع مهاراتي
+                                                    الفنية
+                                                    والإبداعية موضع التنفيذ. أحب العمل لساعات لتحقيق الأهداف المحددة
+                                                    والحصول
+                                                    على أفضل النتائج الممكنة. إذا كنت تبحث عن محترف مختص وعاطفي ومتفاني
+                                                    ،
+                                                    فأنا الشخص المناسب لك.</p>
                                                 <div class="signature_box">
                                                     <div class="name">
-                                                        <h2>Yassine Labhih</h2>
-                                                        <p>Full-stack Developer</p>
+                                                        <h2>ياسين لبحيح</h2>
+                                                        <p>مطور كامل المكدس</p>
                                                     </div>
                                                     <div class="signature">
                                                         <img src="{{ asset('images/sign.png') }}"
-                                                            alt="Signature of Yassine Labhih">
+                                                            alt="توقيع ياسين لبحيح">
                                                     </div>
                                                 </div>
                                                 <div class="anout_section_btn">
                                                     <a href="{{ asset('docs/cv_labhih_yassine_blue.pdf') }}"
                                                         download="resume_yassine_labhih"
                                                         class="portfolio_btn btn_yellow">
-                                                        <span class="first_text">Download CV</span>
-                                                        <span class="second_text">Download</span>
+                                                        <span class="first_text">تحميل سيرتي الذاتية</span>
+                                                        <span class="second_text">تحميل</span>
                                                     </a>
                                                     <a href="#contact_section" class="portfolio_btn btn_red"
                                                         id="redirect_contact">
-                                                        <span class="first_text">Hire Me</span>
-                                                        <span class="second_text">Contact</span>
+                                                        <span class="first_text">وظفني</span>
+                                                        <span class="second_text">وظف</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -217,9 +206,9 @@
                                     <div class="col-md-12">
                                         <div class="port_heading_wrapper text-center">
                                             <div class="port_sub_heading_wrapper">
-                                                <h2 class="port_sub_heading">Learning </h2>
+                                                <h2 class="port_sub_heading">تعلُّم </h2>
                                             </div>
-                                            <h1 class="port_heading">My Education</h1>
+                                            <h1 class="port_heading">تعليمي</h1>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
@@ -247,14 +236,12 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="education_place"><span data-hover="Diploma"
-                                                                        class="data_hover">Diploma </span> Web and
-                                                                    Mobile Web Developer</h3>
-                                                                <p>Also called: Full-stack developer, Web developer,
-                                                                    Developer
-                                                                    web front-end Back-end developer, Mobile web
-                                                                    developer,
-                                                                    Development computer scientist</p>
+                                                                <h3 class="education_place"><span data-hover="دبلوم"
+                                                                        class="data_hover">دبلوم </span> مطور الويب
+                                                                    والويب المحمول</h3>
+                                                                <p>>يُطلق عليه أيضًا: مطور مكدس كامل ، مطور ويب ، مطور
+                                                                    مطور الواجهة الأمامية للويب ، مطور الويب للجوال ،
+                                                                    تطوير عالم الكمبيوتر.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -278,24 +265,22 @@
                                                                 <div class="prt_rightside_title">
                                                                     <div class="left_title_box">
                                                                         <div class="right_title bg-yellow">
-                                                                            <h4>Site Openclassrooms</h4>
+                                                                            <h4>موقع انترنت Openclassrooms</h4>
                                                                         </div>
                                                                         <div class="left_title">
                                                                             <h4>02</h4>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="education_place"><span data-hover="Diploma"
-                                                                        class="data_hover">Formation </span>
+                                                                <h3 class="education_place"><span data-hover="تدريب"
+                                                                        class="data_hover">تدريب </span>
                                                                     JavaScript
                                                                 </h3>
-                                                                <p>Working with data and data types in JavaScript.
-                                                                    Manage
-                                                                    the logic of a program in JavaScript
-                                                                    (conditions,
-                                                                    loops and
-                                                                    errors). Write clean, maintainable code using
-                                                                    methods in JavaScript.</p>
+                                                                <p>العمل مع أنواع البيانات والبيانات في JavaScript.
+                                                                    إدارة
+                                                                    منطق البرنامج في JavaScript (الشروط والحلقات و
+                                                                    أخطاء). اكتب رمزًا نظيفًا وقابلًا للصيانة باستخدام
+                                                                    في JavaScript.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -329,17 +314,17 @@
                                                                             <h4>03</h4>
                                                                         </div>
                                                                         <div class="right_title bg-orange">
-                                                                            <h4>Site Openclassrooms</h4>
+                                                                            <h4>موقع انترنت Openclassrooms</h4>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="education_place"><span data-hover="Diploma"
-                                                                        class="data_hover">Formation </span> HTML5
-                                                                    et
+                                                                <h3 class="education_place"><span data-hover="دبلوم"
+                                                                        class="data_hover">تدريب </span> HTML5
+                                                                    و
                                                                     CSS3</h3>
-                                                                <p>Program: Learn how to create your website with
-                                                                    HTML5
-                                                                    and CSS3</p>
+                                                                <p>البرنامج: تعرف على كيفية إنشاء موقع الويب الخاص بك
+                                                                    باستخدام
+                                                                    HTML5 و CSS3</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -370,15 +355,13 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="education_place"><span data-hover="Diploma"
-                                                                        class="data_hover">Diploma </span>
-                                                                    equipment
-                                                                    electrician
+                                                                <h3 class="education_place"><span data-hover="دبلوم"
+                                                                        class="data_hover">دبلوم </span>
+                                                                    كهربائي
                                                                 </h3>
-                                                                <p>the equipment electrician is in charge of
-                                                                    electrical
-                                                                    installations of all types (building, tertiary,
-                                                                    industrial).</p>
+                                                                <p>>تركيب معدات التيار الثقيل ، وشبكات الطاقة ،
+                                                                    الاتصالات والمعدات والحلول منخفضة التيار
+                                                                    كفاءة الطاقة في المباني.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -416,15 +399,13 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="education_place"><span data-hover="Diploma"
-                                                                        class="data_hover">Baccalaureate general
+                                                                <h3 class="education_place"><span data-hover="دبلوم"
+                                                                        class="data_hover">بكالوريا
                                                                     </span>
-                                                                    economic and social series</h3>
-                                                                <p>the equipment electrician is in charge of
-                                                                    electrical
-                                                                    installations of all types (building, tertiary,
-                                                                    industrial).General baccalaureate economic and
-                                                                    social series</p>
+                                                                    في الاقتصاد والعلوم الاجتماعية</h3>
+                                                                <p>لبكالوريا العامة السلكية الاقتصادية والاجتماعية تخصص
+                                                                    اللغة
+                                                                    الإنجليزية</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -448,7 +429,7 @@
                                                 <div class="second circle" data-percent="80">
                                                     <strong></strong>
                                                 </div>
-                                                <span>Innovator </span>
+                                                <span>إبتداع </span>
                                             </div>
                                         </div>
                                         <div class="col-xl-3 col-lg-6 col-sm-6 text-center">
@@ -456,7 +437,7 @@
                                                 <div class="second circle" data-percent="99">
                                                     <strong></strong>
                                                 </div>
-                                                <span>Perfectionist</span>
+                                                <span>على التفاصيل </span>
                                             </div>
                                         </div>
                                         <div class="col-xl-3 col-lg-6 col-sm-6 text-center">
@@ -464,7 +445,7 @@
                                                 <div class="second circle" data-percent="95">
                                                     <strong></strong>
                                                 </div>
-                                                <span>Social</span>
+                                                <span>اجتماعي</span>
                                             </div>
                                         </div>
                                         <div class="col-xl-3 col-lg-6 col-sm-6 text-center">
@@ -472,7 +453,7 @@
                                                 <div class="second circle" data-percent="98">
                                                     <strong></strong>
                                                 </div>
-                                                <span>Creativity</span>
+                                                <span>إِبداع</span>
                                             </div>
                                         </div>
                                     </div>
@@ -488,9 +469,9 @@
                                     <div class="col-md-12">
                                         <div class="port_heading_wrapper text-center">
                                             <div class="port_sub_heading_wrapper">
-                                                <h2 class="port_sub_heading">Involvement</h2>
+                                                <h2 class="port_sub_heading">مشاركة</h2>
                                             </div>
-                                            <h1 class="port_heading">My Experience</h1>
+                                            <h1 class="port_heading">تجربتي</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -501,26 +482,26 @@
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12 padding-0">
                                                     <div class="ex_leftside">
                                                         <h1>2020</h1>
-                                                        <h4>Feb to</h4>
-                                                        <h1>Today</h1>
+                                                        <h4>فبر إلى </h4>
+                                                        <h1>اليوم</h1>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                                                     <div class="ex_rightside">
-                                                        <h4>Web agency <span data-hover="manager"
-                                                                class="data_hover c-pink">Manager</span>
+                                                        <h4>وكالة الويب <span data-hover="مدير"
+                                                                class="data_hover c-pink">مدير</span>
                                                         </h4>
                                                         <span class="c-pink">App 123</span>
-                                                        <p class="ex_details">Website creation,
-                                                            Creation of mobile application,
-                                                            SEO web referencing,
+                                                        <p class="ex_details">>إنشاء الموقع ،
+                                                            إنشاء تطبيقات الهاتف المتحرك ،
+                                                            الرجوع إلى الويب SEO ،
                                                         </p>
-                                                        <p class="more_content">Social Media Advertising,
-                                                            Advertising through Google Ads,
-                                                            Youtube Advertising,
-                                                            Advertising spot design,
-                                                            Paper marketing (Flyer, business card...).</p>
-                                                        <a class="ex_btn">Read More</a>
+                                                        <p class="more_content">إعلانات وسائل التواصل الاجتماعي ،
+                                                            الإعلان من خلال إعلانات جوجل ،
+                                                            إعلانات يوتيوب ،
+                                                            تصميم بقعة إعلانية ،
+                                                            التسويق الورقي (فلاير ، بطاقة عمل ...).</p>
+                                                        <a class="ex_btn">اقرأ أكثر</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -532,24 +513,22 @@
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12 padding-0">
                                                     <div class="ex_leftside">
                                                         <h1>2020</h1>
-                                                        <h4>Mar to Apr</h4>
+                                                        <h4>مارس إلى أبريل</h4>
                                                         <h1>2023</h1>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                                                     <div class="ex_rightside">
                                                         <h4>Php <span data-hover="Developer"
-                                                                class="data_hover c-yellow">Developer</span>
+                                                                class="data_hover c-yellow">مطور</span>
                                                         </h4>
                                                         <span class="c-yellow">untravailadomicile.com</span>
-                                                        <p class="ex_details">CRM development, Development of
-                                                            online
-                                                            recruitment solutions</p>
+                                                        <p class="ex_details">تطوير إدارة علاقات العملاء ، تطوير حلول
+                                                            التوظيف عبر الإنترنت</p>
                                                         <p class="more_content">
-                                                            Video advertising campaign, Team management,
-                                                            Videoconference
-                                                            training sessions</p>
-                                                        <a class="ex_btn">Read More</a>
+                                                            حملة إعلانية عبر الفيديو ، إدارة الفريق ، مؤتمر بالفيديو ،
+                                                            جلسات تدريبية</p>
+                                                        <a class="ex_btn">اقرأ أكثر</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -560,21 +539,19 @@
                                             <div class="row">
                                                 <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                                                     <div class="ex_rightside">
-                                                        <h4>Call center <span data-hover="Manager"
-                                                                class="data_hover c-orange">Manager</span></h4>
+                                                        <h4>مركز الاتصال <span data-hover="مدير"
+                                                                class="data_hover c-orange">مدير</span></h4>
                                                         <span class="c-orange">AlloServiePro</span>
-                                                        <p class="ex_details">Implementation of commercial
-                                                            strategies,
-                                                            Team management, Customer canvassing</p>
-                                                        <p class="more_content">Recruitment,
-                                                            Training.</p>
-                                                        <a class="ex_btn">Read More</a>
+                                                        <p class="ex_details">تنفيذ الاستراتيجيات التجارية ، إدارة
+                                                            الفريق ، استطلاع آراء العملاء</p>
+                                                        <p class="more_content">التوظيف والتدريب.</p>
+                                                        <a class="ex_btn">اقرأ أكثر</a>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12 padding-0">
                                                     <div class="ex_leftside">
                                                         <h1>2018</h1>
-                                                        <h4>Mar to Aug</h4>
+                                                        <h4>مارس إلى أغسطس</h4>
                                                         <h1>2021</h1>
                                                     </div>
                                                 </div>
@@ -586,20 +563,19 @@
                                             <div class="row">
                                                 <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                                                     <div class="ex_rightside">
-                                                        <h4>Sales <span data-hover="Manager"
-                                                                class="data_hover c-cyan">Manager</span></h4>
+                                                        <h4>Sales <span data-hover="مدير"
+                                                                class="data_hover c-cyan">مدير</span></h4>
                                                         <span class="data_hover c-cyan">Proxydomi</span>
-                                                        <p class="ex_details">Product studies,
-                                                            Development of commercial strategies, Training, sales,
-                                                            After-sales service,</p>
-                                                        <p class="more_content">Recruitment.</p>
-                                                        <a class="ex_btn">Read More</a>
+                                                        <p class="ex_details">دراسات المنتج ، تطوير الاستراتيجيات
+                                                            التجارية ، التدريب ، المبيعات ، خدمة ما بعد البيع ،</p>
+                                                        <p class="more_content">توظيف..</p>
+                                                        <a class="ex_btn">اقرأ أكثر</a>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12 padding-0">
                                                     <div class="ex_leftside">
                                                         <h1>2020</h1>
-                                                        <h4>Jan to Aug</h4>
+                                                        <h4>يناير إلى أغسطس</h4>
                                                         <h1>2021</h1>
                                                     </div>
                                                 </div>
@@ -612,21 +588,20 @@
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12 padding-0">
                                                     <div class="ex_leftside">
                                                         <h1>2017</h1>
-                                                        <h4>Oct to Feb</h4>
+                                                        <h4>أكتوبر إلى فبراير</h4>
                                                         <h1>2018</h1>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                                                     <div class="ex_rightside">
-                                                        <h4>Call center <span data-hover="Agent"
-                                                                class="data_hover c-yellow">Agent</span>
+                                                        <h4>مركز الاتصال <span data-hover="عامل"
+                                                                class="data_hover c-yellow">عامل</span>
                                                         </h4>
                                                         <span class="c-yellow">Quality Call French</span>
-                                                        <p class="ex_details">Sale of various products by
-                                                            telephone,
-                                                            Implementation of commercial strategies,</p>
-                                                        <p class="more_content">Autonomous training.</p>
-                                                        <a class="ex_btn">Read More</a>
+                                                        <p class="ex_details">بيع المنتجات المختلفة عن طريق الهاتف ،
+                                                            وتنفيذ الاستراتيجيات التجارية ،</p>
+                                                        <p class="more_content">تدريب مستقل.</p>
+                                                        <a class="ex_btn">اقرأ أكثر</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -638,22 +613,20 @@
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12 padding-0">
                                                     <div class="ex_leftside">
                                                         <h1>2011</h1>
-                                                        <h4>Nov to Feb</h4>
+                                                        <h4>نوفمبر إلى فبراير</h4>
                                                         <h1>2023</h1>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                                                     <div class="ex_rightside">
-                                                        <h4>Electricity company <span data-hover="Manger"
-                                                                class="data_hover c-pink">Manger</span></h4>
+                                                        <h4>شركة الكهرباء <span data-hover="مدير"
+                                                                class="data_hover c-pink">مدير</span></h4>
                                                         <span class="c-pink">Labelec</span>
-                                                        <p class="ex_details">Electrical installation, Home
-                                                            automation
-                                                            installation, Site management,</p>
-                                                        <p class="more_content">Employee management, Budget
-                                                            management,
-                                                            Recruitment.</p>
-                                                        <a class="ex_btn">Read More</a>
+                                                        <p class="ex_details">التركيبات الكهربائية ، تركيب أتمتة المنزل
+                                                            ، إدارة الموقع ،</p>
+                                                        <p class="more_content">إدارة الموظفين ، إدارة الميزانية
+                                                            ،توظيف..</p>
+                                                        <a class="ex_btn">اقرأ أكثر</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -667,51 +640,51 @@
                         <div id="skills_title" class="col-md-12">
                             <div class="port_heading_wrapper text-center">
                                 <div class="port_sub_heading_wrapper">
-                                    <h2 class="port_sub_heading">Expert </h2>
+                                    <h2 class="port_sub_heading">خبير </h2>
                                 </div>
-                                <h1 class="port_heading">My skills</h1>
+                                <h1 class="port_heading">مهاراتي</h1>
                             </div>
                         </div>
                         <div class="container">
                             <div class="row d-flex justify-content-center">
                                 <div class="skill col-lg-2 col-md-3 col-sm-12"><img class="skill_img"
-                                        src="{{ asset('images/skills/html.png') }}" alt="Logo Html5">
+                                        src="{{ asset('images/skills/html.png') }}" alt="الشعار Html5">
                                     <h5 class="skill_text mt-2">Html5</h5>
                                 </div>
                                 <div class="skill col-lg-2 col-md-3 col-sm-12"><img class="skill_img"
-                                        src="{{ asset('images/skills/css.png') }}" alt="Logo Css3">
+                                        src="{{ asset('images/skills/css.png') }}" alt="الشعار Css3">
                                     <h5 class="skill_text mt-2">Css3</h5>
                                 </div>
                                 <div class="skill col-lg-2 col-md-3 col-sm-12"><img class="skill_img"
-                                        src="{{ asset('images/skills/javascript.png') }}" alt="Logo Javascript">
+                                        src="{{ asset('images/skills/javascript.png') }}" alt="الشعار Javascript">
                                     <h5 class="mt-2">Javascript</h5>
                                 </div>
                                 <div class="skill col-lg-2 col-md-3 col-sm-12"><img class="skill_img"
-                                        src="{{ asset('images/skills/react.png') }}" alt="Logo React.js">
+                                        src="{{ asset('images/skills/react.png') }}" alt="الشعار React.js">
                                     <h5 class="mt-2">React</h5>
                                 </div>
                                 <div class="skill col-lg-2 col-md-3 col-sm-12"><img class="skill_img"
-                                        src="{{ asset('images/skills/wordpress.png') }}" alt="Logo Wordpress">
+                                        src="{{ asset('images/skills/wordpress.png') }}" alt="الشعار Wordpress">
                                     <h5 class="mt-2">Wordpress</h5>
                                 </div>
                                 <div class="skill col-lg-2 col-md-3 col-sm-12"><img class="skill_img"
-                                        src="{{ asset('images/skills/nodejs.png') }}" alt="Logo Node.js">
+                                        src="{{ asset('images/skills/nodejs.png') }}" alt="الشعار Node.js">
                                     <h5 class="mt-2">Node.js</h5>
                                 </div>
                                 <div class="skill col-lg-2 col-md-3 col-sm-12"><img class="skill_img"
-                                        src="{{ asset('images/skills/mysql.png') }}" alt="Logo MySql">
+                                        src="{{ asset('images/skills/mysql.png') }}" alt="الشعار MySql">
                                     <h5 class="mt-2">MySql</h5>
                                 </div>
                                 <div class="skill col-lg-2 col-md-3 col-sm-12"><img class="skill_img"
-                                        src="{{ asset('images/skills/php.png') }}" alt="Logo Php">
+                                        src="{{ asset('images/skills/php.png') }}" alt="الشعار Php">
                                     <h5 class="mt-2">Php</h5>
                                 </div>
                                 <div class="skill col-lg-2 col-md-3 col-sm-12"><img class="skill_img"
-                                        src="{{ asset('images/skills/symfony.png') }}" alt="Logo Symfony framework">
+                                        src="{{ asset('images/skills/symfony.png') }}" alt="الشعار Symfony framework">
                                     <h5 class="mt-2">Symfony</h5>
                                 </div>
                                 <div class="skill col-lg-2 col-md-3 col-sm-12"><img class="skill_img"
-                                        src="{{ asset('images/skills/laravel.png') }}" alt="Logo Laravel framework">
+                                        src="{{ asset('images/skills/laravel.png') }}" alt="الشعار Laravel framework">
                                     <h5 class="mt-2">Laravel</h5>
                                 </div>
                             </div>
@@ -725,9 +698,9 @@
                                     <div class="col-md-12">
                                         <div class="port_heading_wrapper text-center">
                                             <div class="port_sub_heading_wrapper">
-                                                <h2 class="port_sub_heading">Take a look</h2>
+                                                <h2 class="port_sub_heading">إلق نظرة</h2>
                                             </div>
-                                            <h1 class="port_heading">My Services</h1>
+                                            <h1 class="port_heading">خدماتي</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -736,11 +709,11 @@
                                         <div class="port_services_box_wrapper">
                                             <div class="port_services_box">
                                                 <img src="{{ asset('images/services/web_development.png') }}"
-                                                    alt="computer screen illustration">
-                                                <h2 class="project_heading">Web Development</h2>
-                                                <p class="project_pera">I develop your websites and web and mobile
-                                                    applications without any
-                                                    limits</p>
+                                                    alt="رسم توضيحي شاشة الكمبيوتر">
+                                                <h2 class="project_heading">تطوير الويب</h2>
+                                                <p class="project_pera">>أقوم بتطوير مواقع الويب الخاصة بك وتطبيقات
+                                                    الويب والجوال دون أي حدود
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -748,11 +721,11 @@
                                         <div class="port_services_box_wrapper">
                                             <div class="port_services_box">
                                                 <img src="{{ asset('images/services/graphic_design.png') }}"
-                                                    alt="architect drawing illustration">
-                                                <h2 class="project_heading">Graphic design</h2>
-                                                <p class="project_pera">Logo, fonts, colors, I take care of your
-                                                    image from
-                                                    A to Z</p>
+                                                    alt="رسم توضيحي للمهندس المعماري">
+                                                <h2 class="project_heading">التصميم الجرافيكي</h2>
+                                                <p class="project_pera">ليس لديك ميثاق رسومي محددا؟ صدقني! الشعار،
+                                                    الخطوط والألوان، أنا أعتني
+                                                    بصورتك من البداية إلى النهاية</p>
                                             </div>
                                         </div>
                                     </div>
@@ -760,12 +733,11 @@
                                         <div class="port_services_box_wrapper">
                                             <div class="port_services_box">
                                                 <img src="{{ asset('images/services/seo.png') }}"
-                                                    alt="target illustration with SEO writing">
+                                                    alt="الهدف التوضيح مع كتابة SEO">
                                                 <h2 class="project_heading">SEO</h2>
-                                                <p class="project_pera">Why is your site not showing up on Google?
-                                                    simply
-                                                    because
-                                                    it is misreferenced !</p>
+                                                <p class="project_pera">لماذا لا يظهر موقعك على جوجل ؟ ببساطة ،
+                                                    انها مغلوطة! سيو له أسراره
+                                                    تعرف مُحسّنات محرّكات البحث ...</p>
                                             </div>
                                         </div>
                                     </div>
@@ -773,10 +745,10 @@
                                         <div class="port_services_box_wrapper">
                                             <div class="port_services_box">
                                                 <img src="{{ asset('images/services/marketing.png') }}"
-                                                    alt="megaphone illustration">
-                                                <h2 class="project_heading">Marketing</h2>
-                                                <p class="project_pera">“Creativity without strategy
-                                                    is Art. Creativity with strategy is advertisement."</p>
+                                                    alt="التوضيح مكبر الصوت">
+                                                <h2 class="project_heading">تسويق</h2>
+                                                <p class="project_pera">"الإبداع بدون استراتيجية يسمى الفن. يُطلق
+                                                    على الإبداع مع الإستراتيجية الإعلان ".</p>
                                             </div>
                                         </div>
                                     </div>
@@ -784,11 +756,10 @@
                                         <div class="port_services_box_wrapper">
                                             <div class="port_services_box">
                                                 <img src="{{ asset('images/services/video_montage.png') }}"
-                                                    alt="clapperboard illustration">
-                                                <h2 class="project_heading">Video Montage</h2>
-                                                <p class="project_pera">I create advertising spots for you to boost
-                                                    your
-                                                    visibility or your sales.</p>
+                                                    alt="التوضيح clapperboard">
+                                                <h2 class="project_heading">مونتاج الفيديو</h2>
+                                                <p class="project_pera">أقوم بإنشاء مواقع إعلانية لك لتعزيز ظهورك أو
+                                                    مبيعاتك.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -796,11 +767,10 @@
                                         <div class="port_services_box_wrapper">
                                             <div class="port_services_box">
                                                 <img src="{{ asset('images/services/social_media.png') }}"
-                                                    alt="illustration of smartphone with social networks">
-                                                <h2 class="project_heading">Social Media</h2>
-                                                <p class="project_pera">Tpday Social Media are the key to
-                                                    successful
-                                                    communication! !</p>
+                                                    alt="رسم توضيحي للهاتف الذكي مع الشبكات الاجتماعية">
+                                                <h2 class="project_heading">وسائل التواصل الاجتماعي</h2>
+                                                <p class="project_pera">اليوم وسائل التواصل الاجتماعي هي مفتاح التواصل
+                                                    الناجح!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -817,19 +787,19 @@
                                     <div class="col-md-12">
                                         <div class="port_heading_wrapper text-center">
                                             <div class="port_sub_heading_wrapper">
-                                                <h2 class="port_sub_heading">Quality Work</h2>
+                                                <h2 class="port_sub_heading">نوعية العمل</h2>
                                             </div>
-                                            <h1 class="port_heading">My Projects</h1>
+                                            <h1 class="port_heading">مشاريعي</h1>
                                         </div>
                                     </div>
                                     <div class="port_project_gallery text-center">
                                         <div class="gallery_nav">
                                             <ul>
-                                                <li><a data-filter="*" class="gallery_active">all</a></li>
-                                                <li><a data-filter=".site">Site</a></li>
-                                                <li><a data-filter=".application">Application</a></li>
-                                                <li><a data-filter=".design">Design</a></li>
-                                                <li><a data-filter=".video">Video</a></li>
+                                                <li><a data-filter="*" class="gallery_active">الجميع</a></li>
+                                                <li><a data-filter=".site">المواقع</a></li>
+                                                <li><a data-filter=".application">التطبيقات</a></li>
+                                                <li><a data-filter=".design">تصميمات</a></li>
+                                                <li><a data-filter=".video">فيديو</a></li>
                                             </ul>
                                         </div>
                                         <div class="gallery_container">
@@ -838,11 +808,11 @@
                                                     <a href="https://www.luks-mobilya.com/" target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/luks_Mobilya.jpg') }}"
-                                                                alt="luxurious living room">
+                                                                alt="غرفة جلوس فاخرة">
                                                         </div>
                                                         <div class="grid-content">
                                                             <h3>Luks Mobilya</h3>
-                                                            <span>Luxury furniture e-commerce site</span>
+                                                            <span>موقع التجارة الإلكترونية للأثاث الفاخر</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -851,11 +821,11 @@
                                                         target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/the_fair_price.jpg') }}"
-                                                                alt="little girl acting as a judge">
+                                                                alt="فتاة صغيرة تعمل كقاضية">
                                                         </div>
                                                         <div class="grid-content">
-                                                            <h3>The fair price game</h3>
-                                                            <span>The famous fair price game</span>
+                                                            <h3>لعبة السعر العادل</h3>
+                                                            <span>لعبة السعر العادل الشهيرة</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -863,11 +833,11 @@
                                                     <a href="https://www.untravailadomicile.com/" target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/untravailadomicile.jpg') }}"
-                                                                alt="black man work from home">
+                                                                alt="رجل أسود يعمل من المنزل">
                                                         </div>
                                                         <div class="grid-content">
                                                             <h3>untravailadomicile.com</h3>
-                                                            <span>Telecommuting agent management CRM</span>
+                                                            <span>إدارة الوكيل CRM</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -875,11 +845,11 @@
                                                     <a href="https://www.calculator.yassinelabhih.com/">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/calculator.jpg') }}"
-                                                                alt="calculator put on a desk">
+                                                                alt="آلة حاسبة على مكتب">
                                                         </div>
                                                         <div class="grid-content">
                                                             <h3>Calculator JS</h3>
-                                                            <span>Calculator web app</span>
+                                                            <span>تطبيق ويب الآلة الحاسبة</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -887,11 +857,11 @@
                                                     <a href="https://www.todo.yassinelabhih.com/" target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/todo_list.jpg') }}"
-                                                                alt="notepad put on a desk">
+                                                                alt="المفكرة على مكتب">
                                                         </div>
                                                         <div class="grid-content">
                                                             <h3>Todo List</h3>
-                                                            <span>List of tasks to be done</span>
+                                                            <span>قائمة المهام التي يتعين القيام بها</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -900,11 +870,11 @@
                                                         target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/hangman.jpg') }}"
-                                                                alt="hangman game draw on a blackboard">
+                                                                alt="لعبة الجلاد رسم على السبورة">
                                                         </div>
                                                         <div class="grid-content">
-                                                            <h3>The hangman game</h3>
-                                                            <span>The famous game of hangman</span>
+                                                            <h3>لعبة الجلاد</h3>
+                                                            <span>لعبة الجلاد الشهيرة</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -912,11 +882,11 @@
                                                     <a href="https://alloservicepro.com/" target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/alloservicepro.jpg') }}"
-                                                                alt="call center agent wearing a headset">
+                                                                alt="مركز الاتصال عامل يرتدي سماعة">
                                                         </div>
                                                         <div class="grid-content">
                                                             <h3>AlloServicePro</h3>
-                                                            <span>Call center company presentation website</span>
+                                                            <span>موقع ويب عرض شركة مركز الاتصال</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -924,11 +894,11 @@
                                                     <a href="https://www.change.yassinelabhih.com/" target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/give_change.jpg') }}"
-                                                                alt="a merchant who gives change to the customer">
+                                                                alt="التاجر الذي يعطي التغيير للعميل">
                                                         </div>
                                                         <div class="grid-content">
                                                             <h3>Calculate currency</h3>
-                                                            <span>Change calculation app/span>
+                                                            <span>تغيير تطبيق الحساب</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -937,11 +907,11 @@
                                                         target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/password_check.jpg') }}"
-                                                                alt="hand typing an encrypted password on a computer">
+                                                                alt="يد كتابة كلمة مرور مشفرة على جهاز الكمبيوتر">
                                                         </div>
                                                         <div class="grid-content">
                                                             <h3>Password check</h3>
-                                                            <span>Password strength calculator app</span>
+                                                            <span>تطبيق حاسبة قوة كلمة المرور</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -960,9 +930,9 @@
                                     <div class="col-md-12">
                                         <div class="port_heading_wrapper text-center">
                                             <div class="port_sub_heading_wrapper">
-                                                <h2 class="port_sub_heading">Testimonial</h2>
+                                                <h2 class="port_sub_heading">شهادة</h2>
                                             </div>
-                                            <h1 class="port_heading">words from clients</h1>
+                                            <h1 class="port_heading">كلمات من العملاء</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -977,24 +947,18 @@
                                                             <div class="testimonial_top_box">
                                                                 <div class="testimonial_img">
                                                                     <img src="{{ asset('images/testimonials/teacher.png') }}"
-                                                                        alt="computer bag" class="img-fluid" />
+                                                                        alt="حقيبة الحاسوب" class="img-fluid" />
                                                                 </div>
                                                             </div>
                                                             <div class="testimonial_details_box">
-                                                                <p>He has been able to integrate the latest web
-                                                                    development
-                                                                    technologies and trends into his projects,
-                                                                    showing
-                                                                    thus his motivation to stay up to date and
-                                                                    continuously
-                                                                    improve his skills.</p>
-                                                                <p>He has demonstrated an excellent ability to
-                                                                    identify and
-                                                                    resolve performance issues, optimizing
-                                                                    and its applications to ensure an optimal user
-                                                                    experience and fast response times.</p>
-                                                                <h3>Houssem Tayech</h3>
-                                                                <h4>Web and Mobile Development Engineer & Trainer
+                                                                <p>لقد كان قادرًا على دمج أحدث تقنيات واتجاهات تطوير
+                                                                    الويب في مشاريعه ، مما يدل على حافزه للبقاء على
+                                                                    اطلاع دائم وتحسين مهاراته باستمرار.</p>
+                                                                <p>لقد أظهر قدرة ممتازة على تحديد وحل مشكلات الأداء ،
+                                                                    وبالتالي تحسين تطبيقاته لضمان تجربة المستخدم المثلى
+                                                                    وأوقات الاستجابة السريعة.</p>
+                                                                <h3>حسام طايش</h3>
+                                                                <h4>مهندس ومدرب تطوير الويب والجوال
                                                                 </h4>
                                                                 <div class="port_testi_quote">
                                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -1026,7 +990,7 @@
                                                             <div class="testimonial_top_box">
                                                                 <div class="testimonial_img">
                                                                     <img src="{{ asset('images/testimonials/building.png') }}"
-                                                                        alt="skyscraper seen from below"
+                                                                        alt="ناطحة سحاب تُرى من الأسفل"
                                                                         class="img-fluid" />
                                                                 </div>
                                                             </div>
@@ -1041,8 +1005,8 @@
                                                                     ex ea
                                                                     commodo consequat. Duis aute irure dolor in
                                                                     reprehenderit.</p>
-                                                                <h3>Mohammed Rahou</h3>
-                                                                <h4>Marketing Company Manager</h4>
+                                                                <h3>محمد رحو</h3>
+                                                                <h4>مدير شركة تسويق</h4>
                                                                 <div class="port_testi_quote">
                                                                     <svg xmlns="http://www.w3.org/2000/svg"
                                                                         viewBox="0 0 32 32" width="512px" height="512px"
@@ -1090,7 +1054,7 @@
                                                         <a href="https://www.proximus.be/fr/personal/?"
                                                             target="blank"><img class="worked_with"
                                                                 src="{{ asset('images/worked_with/logo_proximus.png') }}"
-                                                                alt="Logo Proximus"></a>
+                                                                alt="الشعار Proximus"></a>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
@@ -1098,7 +1062,7 @@
                                                         <a href="https://www.afpa.fr/" target="blank"><img
                                                                 class="worked_with"
                                                                 src="{{ asset('images/worked_with/logo_afpa.png') }}"
-                                                                alt="Logo Afpa"></a>
+                                                                alt="الشعار Afpa"></a>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
@@ -1106,7 +1070,7 @@
                                                         <a href="https://www.reseau-astuce.fr/" target="blank"><img
                                                                 class="worked_with"
                                                                 src="{{ asset('images/worked_with/logo_tcar.png') }}"
-                                                                alt="Logo Tcar"></a>
+                                                                alt="الشعار Tcar"></a>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
@@ -1114,7 +1078,7 @@
                                                         <a href="https://alloservicepro.com/" target="blank"><img
                                                                 class="worked_with"
                                                                 src="{{ asset('images/worked_with/logo_alloservicepro.png') }}"
-                                                                alt="Logo Alloservicepro"></a>
+                                                                alt="الشعار Alloservicepro"></a>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
@@ -1122,7 +1086,7 @@
                                                         <a href="https://untravailadomicile.com/" target="blank"><img
                                                                 class="worked_with"
                                                                 src="{{ asset('images/worked_with/logo_untravailadomicile.png') }}"
-                                                                alt="Logo untravailadomicile.com"></a>
+                                                                alt="الشعار untravailadomicile.com"></a>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
@@ -1130,7 +1094,7 @@
                                                         <a href="https://www.luks-mobilya.com/" target="blank"><img
                                                                 class="worked_with"
                                                                 src="{{ asset('images/worked_with/logo_luks_mobilya.png') }}"
-                                                                alt="Logo Luks Mobilya"></a>
+                                                                alt="الشعار Luks Mobilya"></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1148,9 +1112,9 @@
                                 <div class="col-md-12">
                                     <div class="port_heading_wrapper text-center">
                                         <div class="port_sub_heading_wrapper">
-                                            <h2 class="port_sub_heading">Contact Me</h2>
+                                            <h2 class="port_sub_heading">اتصل بي</h2>
                                         </div>
-                                        <h1 class="port_heading">Get In Touch</h1>
+                                        <h1 class="port_heading">لنبقى على إتصال</h1>
                                     </div>
                                 </div>
                             </div>
@@ -1167,5 +1131,5 @@
                                 </div>
                             </div>
                         </div><!-- End map section  -->
-                      @livewire('send-mail-arabic')
+                        @livewire('send-mail-arabic')
 </x-layout>

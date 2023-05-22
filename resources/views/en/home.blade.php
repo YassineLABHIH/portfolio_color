@@ -1,5 +1,4 @@
 <x-layout>
-
     <!-- html lang -->
     <x-slot:lang>
         en
@@ -335,7 +334,7 @@
                                                                 </div>
                                                                 <h3 class="education_place"><span data-hover="Diploma"
                                                                         class="data_hover">Formation </span> HTML5
-                                                                    et
+                                                                    and
                                                                     CSS3</h3>
                                                                 <p>Program: Learn how to create your website with
                                                                     HTML5
@@ -420,10 +419,7 @@
                                                                         class="data_hover">Baccalaureate general
                                                                     </span>
                                                                     economic and social series</h3>
-                                                                <p>the equipment electrician is in charge of
-                                                                    electrical
-                                                                    installations of all types (building, tertiary,
-                                                                    industrial).General baccalaureate economic and
+                                                                <p>General baccalaureate economic and
                                                                     social series</p>
                                                             </div>
                                                         </div>
@@ -645,7 +641,7 @@
                                                 <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                                                     <div class="ex_rightside">
                                                         <h4>Electricity company <span data-hover="Manger"
-                                                                class="data_hover c-pink">Manger</span></h4>
+                                                                class="data_hover c-pink">Manager</span></h4>
                                                         <span class="c-pink">Labelec</span>
                                                         <p class="ex_details">Electrical installation, Home
                                                             automation
@@ -749,7 +745,7 @@
                                             <div class="port_services_box">
                                                 <img src="{{ asset('images/services/graphic_design.png') }}"
                                                     alt="architect drawing illustration">
-                                                <h2 class="project_heading">Graphic design</h2>
+                                                <h2 class="project_heading">Graphic Design</h2>
                                                 <p class="project_pera">Logo, fonts, colors, I take care of your
                                                     image from
                                                     A to Z</p>
@@ -798,9 +794,8 @@
                                                 <img src="{{ asset('images/services/social_media.png') }}"
                                                     alt="illustration of smartphone with social networks">
                                                 <h2 class="project_heading">Social Media</h2>
-                                                <p class="project_pera">Tpday Social Media are the key to
-                                                    successful
-                                                    communication! !</p>
+                                                <p class="project_pera">Today Social Media are the key to successful
+                                                    communication ! </p>
                                             </div>
                                         </div>
                                     </div>
@@ -928,7 +923,7 @@
                                                         </div>
                                                         <div class="grid-content">
                                                             <h3>Calculate currency</h3>
-                                                            <span>Change calculation app/span>
+                                                            <span>Change calculation app</span>
                                                         </div>
                                                     </a>
                                                 </div>

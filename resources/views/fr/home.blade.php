@@ -1,21 +1,21 @@
 <x-layout>
-
     <!-- html lang -->
     <x-slot:lang>
-        en
+        fr
         </x-slot>
         <!-- title tag -->
         <x-slot:title>
-            Yassine Labhih - Freelance full-stack developer
+            Yassine Labhih - Développeur full-stack indépendant
             </x-slot>
             <!-- meta tag description -->
             <x-slot:meta_description>
-                Full-Stack freelance developer - I develop a showcase site, e-commerce site, web and mobile application,
-                and all other requests. I master: HTML5 CSS3 JavaScript Php (Symfony / Laravel).
+                Développeur Full-Stack indépendant - Je développe site vitrine, site e-commerce, application web et
+                mobile, et toutes autres demandes. Je maîtrise : HTML5 CSS3 JavaScript Php (Symfony / Laravel).
                 </x-slot>
                 <!-- meta tag keywords -->
                 <x-slot:meta_keywords>
-                    developer, freelance developer, independent developer, full-stack developer, PHP developer
+                    développeur, développeur web, développeur freelance , développeur indépendant, développeur web
+                    indépendant, développeur web full-stack , développeur PHP
                     </x-slot>
                     <!-- start banner section -->
                     <div class="port_bannerbg_wrapper">
@@ -43,8 +43,8 @@
                                             </div>
                                             <div class="brc_hirebtn">
                                                 <a href="#contact_section" class="portfolio_btn btn_orange">
-                                                    <span class="first_text">Hire Me</span>
-                                                    <span class="second_text">Hire</span>
+                                                    <span class="first_text">Engagez moi</span>
+                                                    <span class="second_text">Engager</span>
                                                 </a>
                                             </div>
                                         </div>
@@ -54,25 +54,26 @@
                                             <div class="bannner_leftpart">
                                                 <h2 class="stranger">HELLO <span class="stran">World !</span></h2>
                                                 <h1 class="banner_name">Yassine Labhih</h1>
-                                                <p class="banner_pera"> I'm </p>
+                                                <p class="banner_pera"> Je suis </p>
                                                 <div class="banner_typingtext">
                                                     <ul class="texts home-desc">
-                                                        <li class="list-inline-item">Full Stack Developer</li>
-                                                        <li class="list-inline-item">Web Designer</li>
-                                                        <li class="list-inline-item">Marketer</li>
-                                                        <li class="list-inline-item">Freelancer</li>
+                                                        <li class="list-inline-item">Développeur Full Stack</li>
+                                                        <li class="list-inline-item">Designer Web</li>
+                                                        <li class="list-inline-item">Marketeur</li>
+                                                        <li class="list-inline-item">Indépendant</li>
+                                                        <li class="list-inline-item">Freelance</li>
                                                     </ul>
                                                 </div>
                                                 <div class="banner_btn">
                                                     <a href="{{ asset('docs/cv_labhih_yassine_blue.pdf') }}"
                                                         download="resume_yassine_labhih"
                                                         class="portfolio_btn btn_yellow">
-                                                        <span class="first_text">Download CV</span>
-                                                        <span class="second_text">Download</span>
+                                                        <span class="first_text">Télécharger mon CV</span>
+                                                        <span class="second_text">Télécharger</span>
                                                     </a>
                                                     <a href="#contact_section" class="portfolio_btn btn_red">
-                                                        <span class="first_text">Send Message</span>
-                                                        <span class="second_text">Send</span>
+                                                        <span class="first_text">Envoyer un message</span>
+                                                        <span class="second_text">Envoyer</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -100,7 +101,7 @@
                                                 <div class="img_warapper">
                                                     <img class="img-fluid"
                                                         src="{{ asset('images/avatar_445x490.png') }}"
-                                                        alt="Avatar of Yassine Labhih"
+                                                        alt="Avatar de Yassine Labhih"
                                                         title="more information click + icon">
                                                     <div class="icon" title="more information click + icon">
                                                         <div class="iconbox">
@@ -112,23 +113,24 @@
                                                 <div class="left_deatils">
                                                     <div class="personal_details">
                                                         <h1 class="ps_name">Yassine Labhih</h1>
-                                                        <p class="ps_designation">Full-stack Developer</p>
+                                                        <p class="ps_designation">Développeur full-stack</p>
                                                         <ul class="info-list">
-                                                            <li><span class="title">Age</span><span class="value">{{
+                                                            <li><span class="title">Âge</span><span class="value">{{
                                                                     $age }}</span></li>
-                                                            <li><span class="title">Address</span><span
+                                                            <li><span class="title">Adresse</span><span
                                                                     class="value">Saint-Etienne-du-Rouvray (France)
                                                                 </span>
                                                             </li>
-                                                            <li><span class="title">E-mail</span><span class="value"><a
+                                                            <li><span class="title">Mail</span><span class="value"><a
                                                                         href="mailto:email@example.com">contact@yassinelabhih.com</a></span>
                                                             </li>
-                                                            <li><span class="title">Phone</span><span class="value">+33
+                                                            <li><span class="title">Téléphone</span><span
+                                                                    class="value">+33
                                                                     7 49
                                                                     91 12 11
                                                                 </span></li>
                                                             <li><span class="title">Freelance</span><span
-                                                                    class="value available">Available</span></li>
+                                                                    class="value available">Disponible</span></li>
                                                         </ul>
                                                         <ul class="social-links">
                                                             <li><a class="tip social-button"
@@ -150,56 +152,43 @@
                                             <div class="right_section">
                                                 <div class="port_heading_wrapper">
                                                     <div class="port_sub_heading_wrapper">
-                                                        <h2 class="port_sub_heading">About Me </h2>
+                                                        <h2 class="port_sub_heading">À propos </h2>
                                                     </div>
                                                 </div>
-                                                <h2 class="about_tophead">let's start with the introductions !</h2>
-                                                <p class="about_deatils">I am a {{ $age }}-year-old
-                                                    passionate web
-                                                    developer
-                                                    with strong autonomy
-                                                    and
-                                                    extensive
-                                                    marketing experience. This allows me to understand customer
-                                                    needs and
-                                                    create
-                                                    sites and applications that meet their expectations, while
-                                                    optimizing
-                                                    their
-                                                    visibility and attractiveness on the market.</p>
-                                                <p>I am constantly looking for
-                                                    new
-                                                    challenges and innovative projects that allow me to put my
-                                                    technical and
-                                                    creative skills into practice. I like to work for hours to
-                                                    achieve set
-                                                    goals
-                                                    and
-                                                    get the best possible results. If you are looking for a
-                                                    competent,
-                                                    passionate
-                                                    and dedicated professional, I am the person for you.</p>
+                                                <h2 class="about_tophead">commençons par les présentations !</h2>
+                                                <p class="about_deatils">Je suis un développeur web passionné de {{ $age
+                                                    }} ans avec une forte autonomie et une vaste expérience en
+                                                    marketing. Cela me permet de comprendre les besoins des clients et
+                                                    de créer des sites et des applications qui répondent à leurs
+                                                    attentes, tout en optimisant leur visibilité et leur attractivité
+                                                    sur le marché.</p>
+                                                <p>Je suis constamment à la recherche de nouveaux défis et de projets
+                                                    innovants qui me permettent de mettre en pratique mes compétences
+                                                    techniques et ma créativité. J'aime travailler des heures pour
+                                                    atteindre les objectifs fixés et obtenir les meilleurs résultats
+                                                    possibles. Si vous cherchez un professionnel compétent, passionné et
+                                                    dévoué, je suis la personne qu'il vous faut.</p>
                                                 <div class="signature_box">
                                                     <div class="name">
                                                         <h2>Yassine Labhih</h2>
-                                                        <p>Full-stack Developer</p>
+                                                        <p>Développeur full-stack</p>
                                                     </div>
                                                     <div class="signature">
                                                         <img src="{{ asset('images/sign.png') }}"
-                                                            alt="Signature of Yassine Labhih">
+                                                            alt="Signature de Yassine Labhih">
                                                     </div>
                                                 </div>
                                                 <div class="anout_section_btn">
                                                     <a href="{{ asset('docs/cv_labhih_yassine_blue.pdf') }}"
                                                         download="resume_yassine_labhih"
                                                         class="portfolio_btn btn_yellow">
-                                                        <span class="first_text">Download CV</span>
-                                                        <span class="second_text">Download</span>
+                                                        <span class="first_text">Télécharger mon CV</span>
+                                                        <span class="second_text">Télécharger</span>
                                                     </a>
                                                     <a href="#contact_section" class="portfolio_btn btn_red"
                                                         id="redirect_contact">
-                                                        <span class="first_text">Hire Me</span>
-                                                        <span class="second_text">Contact</span>
+                                                        <span class="first_text">Engagez moi</span>
+                                                        <span class="second_text">Engager</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -217,9 +206,9 @@
                                     <div class="col-md-12">
                                         <div class="port_heading_wrapper text-center">
                                             <div class="port_sub_heading_wrapper">
-                                                <h2 class="port_sub_heading">Learning </h2>
+                                                <h2 class="port_sub_heading">Apprentissage </h2>
                                             </div>
-                                            <h1 class="port_heading">My Education</h1>
+                                            <h1 class="port_heading">Mes études</h1>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
@@ -247,14 +236,13 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="education_place"><span data-hover="Diploma"
-                                                                        class="data_hover">Diploma </span> Web and
-                                                                    Mobile Web Developer</h3>
-                                                                <p>Also called: Full-stack developer, Web developer,
-                                                                    Developer
-                                                                    web front-end Back-end developer, Mobile web
-                                                                    developer,
-                                                                    Development computer scientist</p>
+                                                                <h3 class="education_place"><span data-hover="Diplôme"
+                                                                        class="data_hover">Diplôme </span> Développeur
+                                                                    web et web mobile</h3>
+                                                                <p>Aussi appelé : Développeur full-stack, Développeur
+                                                                    web, Développeur web front-end Développeur back-end,
+                                                                    Développeur web mobile, Informaticien de
+                                                                    développement.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -285,17 +273,15 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="education_place"><span data-hover="Diploma"
+                                                                <h3 class="education_place"><span data-hover="Diplôme"
                                                                         class="data_hover">Formation </span>
                                                                     JavaScript
                                                                 </h3>
-                                                                <p>Working with data and data types in JavaScript.
-                                                                    Manage
-                                                                    the logic of a program in JavaScript
-                                                                    (conditions,
-                                                                    loops and
-                                                                    errors). Write clean, maintainable code using
-                                                                    methods in JavaScript.</p>
+                                                                <p>Travailler avec des données et des types de données
+                                                                    en JavaScript. Gérer la logique d'un programme en
+                                                                    JavaScript (conditions, boucles et erreurs). Écrivez
+                                                                    du code propre et maintenable à l'aide de méthodes
+                                                                    en JavaScript.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -333,13 +319,12 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="education_place"><span data-hover="Diploma"
+                                                                <h3 class="education_place"><span data-hover="Diplôme"
                                                                         class="data_hover">Formation </span> HTML5
                                                                     et
                                                                     CSS3</h3>
-                                                                <p>Program: Learn how to create your website with
-                                                                    HTML5
-                                                                    and CSS3</p>
+                                                                <p>Programme : Apprenez à créer votre site Web avec
+                                                                    HTML5 et CSS3</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -370,15 +355,13 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="education_place"><span data-hover="Diploma"
-                                                                        class="data_hover">Diploma </span>
-                                                                    equipment
-                                                                    electrician
+                                                                <h3 class="education_place"><span data-hover="Diplôme"
+                                                                        class="data_hover">Diplôme </span>
+                                                                    électricien d'équipement
                                                                 </h3>
-                                                                <p>the equipment electrician is in charge of
-                                                                    electrical
-                                                                    installations of all types (building, tertiary,
-                                                                    industrial).</p>
+                                                                <p>l'électricien d'équipement est en charge des
+                                                                    installations électriques de tous types (bâtiment,
+                                                                    tertiaire, industriel).</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -412,19 +395,15 @@
                                                                             <h4>05</h4>
                                                                         </div>
                                                                         <div class="right_title bg-pink">
-                                                                            <h4>M.Sembat High School</h4>
+                                                                            <h4>Lycée M.Sembat</h4>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="education_place"><span data-hover="Diploma"
-                                                                        class="data_hover">Baccalaureate general
+                                                                <h3 class="education_place"><span data-hover="Diplôme"
+                                                                        class="data_hover">Baccalauréat général
                                                                     </span>
-                                                                    economic and social series</h3>
-                                                                <p>the equipment electrician is in charge of
-                                                                    electrical
-                                                                    installations of all types (building, tertiary,
-                                                                    industrial).General baccalaureate economic and
-                                                                    social series</p>
+                                                                    série économique et sociale</h3>
+                                                                <p>Baccalauréat général série économique et sociale</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -448,7 +427,7 @@
                                                 <div class="second circle" data-percent="80">
                                                     <strong></strong>
                                                 </div>
-                                                <span>Innovator </span>
+                                                <span>Innovation </span>
                                             </div>
                                         </div>
                                         <div class="col-xl-3 col-lg-6 col-sm-6 text-center">
@@ -456,7 +435,7 @@
                                                 <div class="second circle" data-percent="99">
                                                     <strong></strong>
                                                 </div>
-                                                <span>Perfectionist</span>
+                                                <span>Perfectionnisme</span>
                                             </div>
                                         </div>
                                         <div class="col-xl-3 col-lg-6 col-sm-6 text-center">
@@ -472,7 +451,7 @@
                                                 <div class="second circle" data-percent="98">
                                                     <strong></strong>
                                                 </div>
-                                                <span>Creativity</span>
+                                                <span>Créativité</span>
                                             </div>
                                         </div>
                                     </div>
@@ -488,9 +467,9 @@
                                     <div class="col-md-12">
                                         <div class="port_heading_wrapper text-center">
                                             <div class="port_sub_heading_wrapper">
-                                                <h2 class="port_sub_heading">Involvement</h2>
+                                                <h2 class="port_sub_heading">Pratique</h2>
                                             </div>
-                                            <h1 class="port_heading">My Experience</h1>
+                                            <h1 class="port_heading">Mon Expérience</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -501,26 +480,24 @@
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12 padding-0">
                                                     <div class="ex_leftside">
                                                         <h1>2020</h1>
-                                                        <h4>Feb to</h4>
-                                                        <h1>Today</h1>
+                                                        <h4>Fév à</h4>
+                                                        <h1 class="fs-3">Aujourd'hui</h1>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                                                     <div class="ex_rightside">
-                                                        <h4>Web agency <span data-hover="manager"
-                                                                class="data_hover c-pink">Manager</span>
+                                                        <h4>Directeur <span data-hover="manager"
+                                                                class="data_hover c-pink">D'agence Web</span>
                                                         </h4>
                                                         <span class="c-pink">App 123</span>
-                                                        <p class="ex_details">Website creation,
-                                                            Creation of mobile application,
-                                                            SEO web referencing,
+                                                        <p class="ex_details">Création de site internet, Création
+                                                            d'application mobile, Référencement web SEO,
                                                         </p>
-                                                        <p class="more_content">Social Media Advertising,
-                                                            Advertising through Google Ads,
-                                                            Youtube Advertising,
-                                                            Advertising spot design,
-                                                            Paper marketing (Flyer, business card...).</p>
-                                                        <a class="ex_btn">Read More</a>
+                                                        <p class="more_content">Publicité sur les réseaux sociaux,
+                                                            Publicité via Google Ads, Publicité Youtube, Conception de
+                                                            spots publicitaires, Marketing papier (Flyer, carte de
+                                                            visite...).</p>
+                                                        <a class="ex_btn">Lire Plus</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -532,24 +509,22 @@
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12 padding-0">
                                                     <div class="ex_leftside">
                                                         <h1>2020</h1>
-                                                        <h4>Mar to Apr</h4>
+                                                        <h4>Mar à Avr</h4>
                                                         <h1>2023</h1>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                                                     <div class="ex_rightside">
-                                                        <h4>Php <span data-hover="Developer"
-                                                                class="data_hover c-yellow">Developer</span>
+                                                        <h4>Développeur <span data-hover="Developer"
+                                                                class="data_hover c-yellow">Php</span>
                                                         </h4>
                                                         <span class="c-yellow">untravailadomicile.com</span>
-                                                        <p class="ex_details">CRM development, Development of
-                                                            online
-                                                            recruitment solutions</p>
+                                                        <p class="ex_details">Développement de CRM, Développement de
+                                                            solutions de recrutement en ligne</p>
                                                         <p class="more_content">
-                                                            Video advertising campaign, Team management,
-                                                            Videoconference
-                                                            training sessions</p>
-                                                        <a class="ex_btn">Read More</a>
+                                                            Campagne publicitaire vidéo, Management d'équipe, Formations
+                                                            en visioconférence</p>
+                                                        <a class="ex_btn">Lire Plus</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -560,21 +535,20 @@
                                             <div class="row">
                                                 <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                                                     <div class="ex_rightside">
-                                                        <h4>Call center <span data-hover="Manager"
-                                                                class="data_hover c-orange">Manager</span></h4>
+                                                        <h4>Directeur <span data-hover="Manager"
+                                                                class="data_hover c-orange">De centre d'appel </span>
+                                                        </h4>
                                                         <span class="c-orange">AlloServiePro</span>
-                                                        <p class="ex_details">Implementation of commercial
-                                                            strategies,
-                                                            Team management, Customer canvassing</p>
-                                                        <p class="more_content">Recruitment,
-                                                            Training.</p>
-                                                        <a class="ex_btn">Read More</a>
+                                                        <p class="ex_details">Mise en place de stratégies commerciales,
+                                                            Management d'équipe, Démarchage client</p>
+                                                        <p class="more_content">Recrutement, Formation.</p>
+                                                        <a class="ex_btn">Lire Plus</a>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12 padding-0">
                                                     <div class="ex_leftside">
                                                         <h1>2018</h1>
-                                                        <h4>Mar to Aug</h4>
+                                                        <h4>Mar à Aoû</h4>
                                                         <h1>2021</h1>
                                                     </div>
                                                 </div>
@@ -586,20 +560,19 @@
                                             <div class="row">
                                                 <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                                                     <div class="ex_rightside">
-                                                        <h4>Sales <span data-hover="Manager"
-                                                                class="data_hover c-cyan">Manager</span></h4>
+                                                        <h4>Directeur <span data-hover="Manager"
+                                                                class="data_hover c-cyan">Des Ventes</span></h4>
                                                         <span class="data_hover c-cyan">Proxydomi</span>
-                                                        <p class="ex_details">Product studies,
-                                                            Development of commercial strategies, Training, sales,
-                                                            After-sales service,</p>
-                                                        <p class="more_content">Recruitment.</p>
-                                                        <a class="ex_btn">Read More</a>
+                                                        <p class="ex_details">Etudes produits, Elaboration de stratégies
+                                                            commerciales, Formation, vente, SAV,</p>
+                                                        <p class="more_content">Recrutement.</p>
+                                                        <a class="ex_btn">Lire Plus</a>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12 padding-0">
                                                     <div class="ex_leftside">
                                                         <h1>2020</h1>
-                                                        <h4>Jan to Aug</h4>
+                                                        <h4>Jan to Aoû</h4>
                                                         <h1>2021</h1>
                                                     </div>
                                                 </div>
@@ -612,21 +585,20 @@
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12 padding-0">
                                                     <div class="ex_leftside">
                                                         <h1>2017</h1>
-                                                        <h4>Oct to Feb</h4>
+                                                        <h4>Oct à Fév</h4>
                                                         <h1>2018</h1>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                                                     <div class="ex_rightside">
-                                                        <h4>Call center <span data-hover="Agent"
-                                                                class="data_hover c-yellow">Agent</span>
+                                                        <h4>Téléconseiller <span data-hover="Agent"
+                                                                class="data_hover c-yellow">En centre d'appel</span>
                                                         </h4>
                                                         <span class="c-yellow">Quality Call French</span>
-                                                        <p class="ex_details">Sale of various products by
-                                                            telephone,
-                                                            Implementation of commercial strategies,</p>
-                                                        <p class="more_content">Autonomous training.</p>
-                                                        <a class="ex_btn">Read More</a>
+                                                        <p class="ex_details">Vente de divers produits par téléphone,
+                                                            Mise en place de stratégies commerciales,</p>
+                                                        <p class="more_content">Formation autonome.</p>
+                                                        <a class="ex_btn">Lire Plus</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -638,22 +610,21 @@
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-12 padding-0">
                                                     <div class="ex_leftside">
                                                         <h1>2011</h1>
-                                                        <h4>Nov to Feb</h4>
+                                                        <h4>Nov à Fév</h4>
                                                         <h1>2023</h1>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                                                     <div class="ex_rightside">
-                                                        <h4>Electricity company <span data-hover="Manger"
-                                                                class="data_hover c-pink">Manger</span></h4>
+                                                        <h4>Directeur <span data-hover="Manger"
+                                                                class="data_hover c-pink">Société d'électricité </span>
+                                                        </h4>
                                                         <span class="c-pink">Labelec</span>
-                                                        <p class="ex_details">Electrical installation, Home
-                                                            automation
-                                                            installation, Site management,</p>
-                                                        <p class="more_content">Employee management, Budget
-                                                            management,
-                                                            Recruitment.</p>
-                                                        <a class="ex_btn">Read More</a>
+                                                        <p class="ex_details">Installation électrique, Installation
+                                                            domotique, Gestion de chantier,</p>
+                                                        <p class="more_content">Gestion du personnel, Gestion
+                                                            budgétaire, Recrutement.</p>
+                                                        <a class="ex_btn">Lire Plus</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -669,7 +640,7 @@
                                 <div class="port_sub_heading_wrapper">
                                     <h2 class="port_sub_heading">Expert </h2>
                                 </div>
-                                <h1 class="port_heading">My skills</h1>
+                                <h1 class="port_heading">Mes compétences</h1>
                             </div>
                         </div>
                         <div class="container">
@@ -707,11 +678,12 @@
                                     <h5 class="mt-2">Php</h5>
                                 </div>
                                 <div class="skill col-lg-2 col-md-3 col-sm-12"><img class="skill_img"
-                                        src="{{ asset('images/skills/symfony.png') }}" alt="Logo Symfony framework">
+                                        src="{{ asset('images/skills/symfony.png') }}"
+                                        alt="Logo framework Symfony framework">
                                     <h5 class="mt-2">Symfony</h5>
                                 </div>
                                 <div class="skill col-lg-2 col-md-3 col-sm-12"><img class="skill_img"
-                                        src="{{ asset('images/skills/laravel.png') }}" alt="Logo Laravel framework">
+                                        src="{{ asset('images/skills/laravel.png') }}" alt="Logo framework Laravel">
                                     <h5 class="mt-2">Laravel</h5>
                                 </div>
                             </div>
@@ -725,9 +697,9 @@
                                     <div class="col-md-12">
                                         <div class="port_heading_wrapper text-center">
                                             <div class="port_sub_heading_wrapper">
-                                                <h2 class="port_sub_heading">Take a look</h2>
+                                                <h2 class="port_sub_heading">Jeter un coup d'oeil</h2>
                                             </div>
-                                            <h1 class="port_heading">My Services</h1>
+                                            <h1 class="port_heading">Mes services</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -736,11 +708,10 @@
                                         <div class="port_services_box_wrapper">
                                             <div class="port_services_box">
                                                 <img src="{{ asset('images/services/web_development.png') }}"
-                                                    alt="computer screen illustration">
-                                                <h2 class="project_heading">Web Development</h2>
-                                                <p class="project_pera">I develop your websites and web and mobile
-                                                    applications without any
-                                                    limits</p>
+                                                    alt="illustration d'écran d'ordinateur">
+                                                <h2 class="project_heading">Développement Web</h2>
+                                                <p class="project_pera">Je développe vos sites internet et applications
+                                                    web et mobiles sans aucune limite</p>
                                             </div>
                                         </div>
                                     </div>
@@ -748,11 +719,10 @@
                                         <div class="port_services_box_wrapper">
                                             <div class="port_services_box">
                                                 <img src="{{ asset('images/services/graphic_design.png') }}"
-                                                    alt="architect drawing illustration">
-                                                <h2 class="project_heading">Graphic design</h2>
-                                                <p class="project_pera">Logo, fonts, colors, I take care of your
-                                                    image from
-                                                    A to Z</p>
+                                                    alt="illustration de dessin d'architecte">
+                                                <h2 class="project_heading">Conception Graphique</h2>
+                                                <p class="project_pera">Logo, polices, couleurs, je m'occupe de votre
+                                                    image de A à Z</p>
                                             </div>
                                         </div>
                                     </div>
@@ -760,12 +730,10 @@
                                         <div class="port_services_box_wrapper">
                                             <div class="port_services_box">
                                                 <img src="{{ asset('images/services/seo.png') }}"
-                                                    alt="target illustration with SEO writing">
-                                                <h2 class="project_heading">SEO</h2>
-                                                <p class="project_pera">Why is your site not showing up on Google?
-                                                    simply
-                                                    because
-                                                    it is misreferenced !</p>
+                                                    alt="illustration de cible avec écriture SEO">
+                                                <h2 class="project_heading">Référencement</h2>
+                                                <p class="project_pera">Pourquoi votre site n'apparaît-il pas sur
+                                                    Google ? simplement parce qu'il est mal référencé !</p>
                                             </div>
                                         </div>
                                     </div>
@@ -773,10 +741,10 @@
                                         <div class="port_services_box_wrapper">
                                             <div class="port_services_box">
                                                 <img src="{{ asset('images/services/marketing.png') }}"
-                                                    alt="megaphone illustration">
+                                                    alt="illustration de mégaphone">
                                                 <h2 class="project_heading">Marketing</h2>
-                                                <p class="project_pera">“Creativity without strategy
-                                                    is Art. Creativity with strategy is advertisement."</p>
+                                                <p class="project_pera">“La créativité sans stratégie c'est de l'Art. La
+                                                    créativité avec de la stratégie c'est de la publicité."</p>
                                             </div>
                                         </div>
                                     </div>
@@ -784,11 +752,10 @@
                                         <div class="port_services_box_wrapper">
                                             <div class="port_services_box">
                                                 <img src="{{ asset('images/services/video_montage.png') }}"
-                                                    alt="clapperboard illustration">
-                                                <h2 class="project_heading">Video Montage</h2>
-                                                <p class="project_pera">I create advertising spots for you to boost
-                                                    your
-                                                    visibility or your sales.</p>
+                                                    alt="illustration de clap">
+                                                <h2 class="project_heading">Montage Vidéo</h2>
+                                                <p class="project_pera">Je crée pour vous des spots publicitaires pour
+                                                    booster votre visibilité ou vos ventes.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -796,11 +763,10 @@
                                         <div class="port_services_box_wrapper">
                                             <div class="port_services_box">
                                                 <img src="{{ asset('images/services/social_media.png') }}"
-                                                    alt="illustration of smartphone with social networks">
-                                                <h2 class="project_heading">Social Media</h2>
-                                                <p class="project_pera">Tpday Social Media are the key to
-                                                    successful
-                                                    communication! !</p>
+                                                    alt="illustration de smartphone avec réseaux sociaux">
+                                                <h2 class="project_heading">Réseaux sociaux</h2>
+                                                <p class="project_pera">Aujourd'hui les réseaux sociaux sont la clé
+                                                    d'une communication réussie !</p>
                                             </div>
                                         </div>
                                     </div>
@@ -817,15 +783,15 @@
                                     <div class="col-md-12">
                                         <div class="port_heading_wrapper text-center">
                                             <div class="port_sub_heading_wrapper">
-                                                <h2 class="port_sub_heading">Quality Work</h2>
+                                                <h2 class="port_sub_heading">Apercus</h2>
                                             </div>
-                                            <h1 class="port_heading">My Projects</h1>
+                                            <h1 class="port_heading">Mes projets</h1>
                                         </div>
                                     </div>
                                     <div class="port_project_gallery text-center">
                                         <div class="gallery_nav">
                                             <ul>
-                                                <li><a data-filter="*" class="gallery_active">all</a></li>
+                                                <li><a data-filter="*" class="gallery_active">tout</a></li>
                                                 <li><a data-filter=".site">Site</a></li>
                                                 <li><a data-filter=".application">Application</a></li>
                                                 <li><a data-filter=".design">Design</a></li>
@@ -838,11 +804,11 @@
                                                     <a href="https://www.luks-mobilya.com/" target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/luks_Mobilya.jpg') }}"
-                                                                alt="luxurious living room">
+                                                                alt="salon luxueux">
                                                         </div>
                                                         <div class="grid-content">
                                                             <h3>Luks Mobilya</h3>
-                                                            <span>Luxury furniture e-commerce site</span>
+                                                            <span>Site e-commerce de mobilier de luxe</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -851,11 +817,11 @@
                                                         target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/the_fair_price.jpg') }}"
-                                                                alt="little girl acting as a judge">
+                                                                alt="petite fille jouant le rôle de juge">
                                                         </div>
                                                         <div class="grid-content">
-                                                            <h3>The fair price game</h3>
-                                                            <span>The famous fair price game</span>
+                                                            <h3>Le juste prix</h3>
+                                                            <span>Le célèbre jeux du juste prix</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -863,11 +829,11 @@
                                                     <a href="https://www.untravailadomicile.com/" target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/untravailadomicile.jpg') }}"
-                                                                alt="black man work from home">
+                                                                alt="homme noir travaillant à domicile">
                                                         </div>
                                                         <div class="grid-content">
                                                             <h3>untravailadomicile.com</h3>
-                                                            <span>Telecommuting agent management CRM</span>
+                                                            <span>CRM de gestion des télétravailleurs</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -875,11 +841,11 @@
                                                     <a href="https://www.calculator.yassinelabhih.com/">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/calculator.jpg') }}"
-                                                                alt="calculator put on a desk">
+                                                                alt="calculatrice posée sur un bureau">
                                                         </div>
                                                         <div class="grid-content">
                                                             <h3>Calculator JS</h3>
-                                                            <span>Calculator web app</span>
+                                                            <span>Application Web de calculatrice</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -887,11 +853,11 @@
                                                     <a href="https://www.todo.yassinelabhih.com/" target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/todo_list.jpg') }}"
-                                                                alt="notepad put on a desk">
+                                                                alt="bloc-notes posé sur un bureau">
                                                         </div>
                                                         <div class="grid-content">
                                                             <h3>Todo List</h3>
-                                                            <span>List of tasks to be done</span>
+                                                            <span>Liste des tâches à effectuer</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -900,11 +866,11 @@
                                                         target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/hangman.jpg') }}"
-                                                                alt="hangman game draw on a blackboard">
+                                                                alt="jeu du pendu dessiner sur un tableau noir">
                                                         </div>
                                                         <div class="grid-content">
-                                                            <h3>The hangman game</h3>
-                                                            <span>The famous game of hangman</span>
+                                                            <h3>Le jeu du pendu</h3>
+                                                            <span>Le célèbre jeu du pendu</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -912,11 +878,12 @@
                                                     <a href="https://alloservicepro.com/" target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/alloservicepro.jpg') }}"
-                                                                alt="call center agent wearing a headset">
+                                                                alt="téléconseiller portant un casque">
                                                         </div>
                                                         <div class="grid-content">
                                                             <h3>AlloServicePro</h3>
-                                                            <span>Call center company presentation website</span>
+                                                            <span>Site de présentation de sociéte de centre
+                                                                d'appels</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -924,11 +891,11 @@
                                                     <a href="https://www.change.yassinelabhih.com/" target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/give_change.jpg') }}"
-                                                                alt="a merchant who gives change to the customer">
+                                                                alt="un commerçant qui rend la monnaie au client">
                                                         </div>
                                                         <div class="grid-content">
-                                                            <h3>Calculate currency</h3>
-                                                            <span>Change calculation app/span>
+                                                            <h3>Calcul du rendue de monnaie</h3>
+                                                            <span>Application de calcul de rendu de monnaie</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -937,11 +904,12 @@
                                                         target="blank">
                                                         <div class="grid_img">
                                                             <img src="{{ asset('images/portfolio/password_check.jpg') }}"
-                                                                alt="hand typing an encrypted password on a computer">
+                                                                alt="saisie manuelle d'un mot de passe crypté sur un ordinateur">
                                                         </div>
                                                         <div class="grid-content">
-                                                            <h3>Password check</h3>
-                                                            <span>Password strength calculator app</span>
+                                                            <h3>Vérification de mot de passe</h3>
+                                                            <span>Application de calcul de la force des mots de
+                                                                passe</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -960,9 +928,9 @@
                                     <div class="col-md-12">
                                         <div class="port_heading_wrapper text-center">
                                             <div class="port_sub_heading_wrapper">
-                                                <h2 class="port_sub_heading">Testimonial</h2>
+                                                <h2 class="port_sub_heading">Témoignage</h2>
                                             </div>
-                                            <h1 class="port_heading">words from clients</h1>
+                                            <h1 class="port_heading">commentaires de collaborateur</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -977,24 +945,23 @@
                                                             <div class="testimonial_top_box">
                                                                 <div class="testimonial_img">
                                                                     <img src="{{ asset('images/testimonials/teacher.png') }}"
-                                                                        alt="computer bag" class="img-fluid" />
+                                                                        alt="sacoche d'ordinateur" class="img-fluid" />
                                                                 </div>
                                                             </div>
                                                             <div class="testimonial_details_box">
-                                                                <p>He has been able to integrate the latest web
-                                                                    development
-                                                                    technologies and trends into his projects,
-                                                                    showing
-                                                                    thus his motivation to stay up to date and
-                                                                    continuously
-                                                                    improve his skills.</p>
-                                                                <p>He has demonstrated an excellent ability to
-                                                                    identify and
-                                                                    resolve performance issues, optimizing
-                                                                    and its applications to ensure an optimal user
-                                                                    experience and fast response times.</p>
+                                                                <p>Il a su intégrer les dernières technologies et
+                                                                    tendances du développement web dans ses projets,
+                                                                    montrant
+                                                                    ainsi sa motivation à rester à jour et à améliorer
+                                                                    continuellement ses compétences.</p>
+                                                                <p>Il a fait preuve d'une excellente capacité à
+                                                                    identifier et résoudre les problèmes de performance,
+                                                                    optimisant
+                                                                    ainsi ses applications pour assurer une expérience
+                                                                    utilisateur optimale et des temps de réponse
+                                                                    rapides.</p>
                                                                 <h3>Houssem Tayech</h3>
-                                                                <h4>Web and Mobile Development Engineer & Trainer
+                                                                <h4>Ingénieur & Formateur Développement Web et Mobile
                                                                 </h4>
                                                                 <div class="port_testi_quote">
                                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -1026,7 +993,7 @@
                                                             <div class="testimonial_top_box">
                                                                 <div class="testimonial_img">
                                                                     <img src="{{ asset('images/testimonials/building.png') }}"
-                                                                        alt="skyscraper seen from below"
+                                                                        alt="gratte-ciel vu d'en bas"
                                                                         class="img-fluid" />
                                                                 </div>
                                                             </div>
@@ -1042,7 +1009,7 @@
                                                                     commodo consequat. Duis aute irure dolor in
                                                                     reprehenderit.</p>
                                                                 <h3>Mohammed Rahou</h3>
-                                                                <h4>Marketing Company Manager</h4>
+                                                                <h4>Directeur De Société Marketing</h4>
                                                                 <div class="port_testi_quote">
                                                                     <svg xmlns="http://www.w3.org/2000/svg"
                                                                         viewBox="0 0 32 32" width="512px" height="512px"
@@ -1148,9 +1115,9 @@
                                 <div class="col-md-12">
                                     <div class="port_heading_wrapper text-center">
                                         <div class="port_sub_heading_wrapper">
-                                            <h2 class="port_sub_heading">Contact Me</h2>
+                                            <h2 class="port_sub_heading">Contactez Moi</h2>
                                         </div>
-                                        <h1 class="port_heading">Get In Touch</h1>
+                                        <h1 class="port_heading">Restons en contact</h1>
                                     </div>
                                 </div>
                             </div>

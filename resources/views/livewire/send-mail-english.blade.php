@@ -17,97 +17,83 @@
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <input wire:model.lazy='first_name' type="text" name="first_name"
-                                                class="form-control require" id="name"
-                                                placeholder="First name">
-                                                @error('first_name')
-                                                <p class="response">{{ $message }}</p>
-                                                @enderror
+                                                class="form-control require" id="name" placeholder="First name">
+                                            @error('first_name')
+                                            <p class="response">{{ $message }}</p>
+                                            @enderror
                                         </div>
-
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <input wire:model.lazy='last_name' type="text" name="last_name"
-                                                class="form-control require" id="last-name"
-                                                placeholder="Last name">
-                                                @error('last_name')
-                                                <p class="response">{{ $message }}</p>
-                                                @enderror
+                                                class="form-control require" id="last-name" placeholder="Last name">
+                                            @error('last_name')
+                                            <p class="response">{{ $message }}</p>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <input wire:model.lazy='email' type="email" name="email"
-                                                class="form-control require" id="email"
-                                                placeholder="Email Address" data-valid="email"
-                                                data-error="Email should be valid.">
-                                                @error('email')
-                                                <p class="response">{{ $message }}</p>
-                                                @enderror
+                                                class="form-control require" id="email" placeholder="Email Address"
+                                                data-valid="email" data-error="Email should be valid.">
+                                            @error('email')
+                                            <p class="response">{{ $message }}</p>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <input wire:model.lazy='tel' type="tel" name="tel"
-                                                class="form-control require" id="tel"
-                                                placeholder="Phone number">
-                                                @error('tel')
-                                                <p class="response">{{ $message }}</p>
-                                                @enderror
+                                                class="form-control require" id="tel" placeholder="Phone number">
+                                            @error('tel')
+                                            <p class="response">{{ $message }}</p>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="select_services row">
                                         <p class="mb-3">What service(s) do you need ?</p>
                                         <div class="col-6">
                                             <div class="service_checkbox">
-                                                <p><input class="accent-yellow" type="checkbox"
-                                                        name="" id="">
+                                                <p><input class="accent-yellow" type="checkbox" name="" id="">
                                                     Showcase
                                                     site</p>
                                             </div>
                                             <div class="service_checkbox">
-                                                <p><input class="accent-pink" type="checkbox"
-                                                        name="" id="">
+                                                <p><input class="accent-pink" type="checkbox" name="" id="">
                                                     E-commerce
                                                     site</p>
                                             </div>
                                             <div class="service_checkbox">
-                                                <p><input class="accent-orange" type="checkbox"
-                                                        name="" id=""> Web
+                                                <p><input class="accent-orange" type="checkbox" name="" id=""> Web
                                                     application</p>
                                             </div>
                                             <div class="service_checkbox">
-                                                <p><input class="accent-cyan" type="checkbox"
-                                                        name="" id="">
+                                                <p><input class="accent-cyan" type="checkbox" name="" id="">
                                                     Mobile app
                                                 </p>
                                             </div>
                                             <div class="service_checkbox">
-                                                <p><input class="accent-yellow" type="checkbox"
-                                                        name="" id=""> Other
+                                                <p><input class="accent-yellow" type="checkbox" name="" id=""> Other
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="service_checkbox">
-                                                <p><input class="accent-yellow" type="checkbox"
-                                                        name="" id="">
+                                                <p><input class="accent-yellow" type="checkbox" name="" id="">
                                                     Graphic
                                                     design</p>
                                             </div>
                                             <div class="service_checkbox">
-                                                <p><input class="accent-pink" type="checkbox"
-                                                        name="" id=""> SEO
+                                                <p><input class="accent-pink" type="checkbox" name="" id=""> SEO
                                                 </p>
                                             </div>
                                             <div class="service_checkbox">
-                                                <p><input class="accent-orange" type="checkbox"
-                                                        name="" id="">
+                                                <p><input class="accent-orange" type="checkbox" name="" id="">
                                                     Advertisement</p>
                                             </div>
                                             <div class="service_checkbox">
-                                                <p><input class="accent-cyan" type="checkbox"
-                                                        name="" id=""> Video
+                                                <p><input class="accent-cyan" type="checkbox" name="" id=""> Video
                                                 </p>
                                             </div>
                                         </div>
@@ -115,21 +101,20 @@
                                     <div class="col-sm-12">
                                         <div class="form-group">
                                             <input wire:model.lazy='subject' type="text" name="subject"
-                                                class="form-control" id="subject"
-                                                placeholder="Subject">
-                                                @error('subject')
-                                                <p class="response">{{ $message }}</p>
-                                                @enderror
+                                                class="form-control" id="subject" placeholder="Subject">
+                                            @error('subject')
+                                            <p class="response">{{ $message }}</p>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group">
                                             <textarea wire:model.lazy='message' name="message"
-                                                class="form-control require" rows="3"
-                                                id="comment" placeholder="Message"></textarea>
-                                                @error('subject')
-                                                <p class="message">{{ $message }}</p>
-                                                @enderror
+                                                class="form-control require" rows="3" id="comment"
+                                                placeholder="Message"></textarea>
+                                            @error('subject')
+                                            <p class="message">{{ $message }}</p>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -159,41 +144,34 @@
                     <div class="col-sm-4 text-center">
                         <div class="contact_info">
                             <div class="info_img">
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 511.998 511.998"
-                                    style="enable-background:new 0 0 511.998 511.998;"
-                                    width="40px" height="40px">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.998 511.998"
+                                    style="enable-background:new 0 0 511.998 511.998;" width="40px" height="40px">
                                     <g transform="translate(0 -1)">
                                         <g transform="translate(1 2)">
                                             <path style="fill:#8BC34A;"
                                                 d="M371.27,370.218h60.817c6.507-0.055,12.539,3.398,15.787,9.037l52.463,93.867
                                                         c2.889,5.405,2.659,11.945-0.605,17.133c-3.263,5.188-9.058,8.228-15.182,7.964H25.457c-6.123,0.264-11.918-2.776-15.182-7.964
                                                         c-3.263-5.188-3.494-11.728-0.605-17.133l52.463-93.867c3.247-5.639,9.28-9.092,15.787-9.037H371.27z" />
-                                            <path style="fill:#2E7D32;"
-                                                d="M484.55,498.218H127.003c0,0,170.667-17.067,213.333-128h91.733
+                                            <path style="fill:#2E7D32;" d="M484.55,498.218H127.003c0,0,170.667-17.067,213.333-128h91.733
                                                         c6.513-0.07,12.554,3.391,15.787,9.045l52.48,93.867c2.885,5.405,2.652,11.941-0.611,17.126
                                                         C496.463,495.441,490.671,498.48,484.55,498.218z" />
-                                            <path style="fill:#4CAF50;"
-                                                d="M450.417,498.218H127.003c0,0,170.667-17.067,213.333-128h57.6
+                                            <path style="fill:#4CAF50;" d="M450.417,498.218H127.003c0,0,170.667-17.067,213.333-128h57.6
                                                         c6.513-0.07,12.554,3.391,15.787,9.045l52.48,93.867c2.885,5.405,2.652,11.941-0.611,17.126
                                                         C462.33,495.441,456.538,498.48,450.417,498.218z" />
-                                            <path style="fill:#C52828;"
-                                                d="M417.137,174.207c0,22.357-10.155,50.688-25.344,80.555
+                                            <path style="fill:#C52828;" d="M417.137,174.207c0,22.357-10.155,50.688-25.344,80.555
                                                         c-16.467,31.182-35.086,61.178-55.723,89.771c-20.309,28.587-40.533,54.357-55.723,72.96c-4.608,5.717-8.789,10.667-12.288,14.933
                                                         c-3.195,3.81-7.897,6.032-12.869,6.081c-4.972,0.049-9.717-2.079-12.987-5.825l-0.256-0.256
                                                         c-3.499-4.267-7.68-9.216-12.288-14.933c-15.189-18.603-35.499-44.373-55.723-72.96c-20.667-28.573-39.288-58.571-55.723-89.771
                                                         c-15.189-29.867-25.344-58.197-25.344-80.555c-0.104-65.237,38.901-124.181,98.987-149.589
                                                         c16.004-6.802,33.009-10.952,50.347-12.288c4.181-0.341,8.533-0.512,12.8-0.512c43.021,0,84.279,17.099,114.688,47.531
                                                         C400.151,89.802,417.224,131.135,417.137,174.207z" />
-                                            <path style="fill:#F44335;"
-                                                d="M391.537,174.207c0,22.357-10.155,50.688-25.344,80.555
+                                            <path style="fill:#F44335;" d="M391.537,174.207c0,22.357-10.155,50.688-25.344,80.555
                                                         c-16.467,31.182-35.086,61.178-55.723,89.771c-20.309,28.587-40.533,54.357-55.723,72.96c-4.608,5.717-8.789,10.667-12.288,14.933
                                                         l-0.256,0.256l-0.256-0.256c-3.499-4.267-7.68-9.216-12.288-14.933c-15.189-18.603-35.499-44.373-55.723-72.96
                                                         c-20.667-28.573-39.288-58.571-55.723-89.771c-15.189-29.867-25.344-58.197-25.344-80.555
                                                         c-0.104-65.237,38.901-124.181,98.987-149.589c16.004-6.802,33.009-10.952,50.347-12.288c17.338,1.336,34.343,5.486,50.347,12.288
                                                         C352.649,50.009,391.661,108.964,391.537,174.207z" />
-                                            <path style="fill:#CFD8DC;"
-                                                d="M331.803,165.418c-0.066,42.388-34.412,76.734-76.8,76.8c-4.287,0.005-8.568-0.337-12.8-1.024
+                                            <path style="fill:#CFD8DC;" d="M331.803,165.418c-0.066,42.388-34.412,76.734-76.8,76.8c-4.287,0.005-8.568-0.337-12.8-1.024
                                                         c-36.92-6.316-63.914-38.32-63.914-75.776s26.994-69.46,63.914-75.776c4.232-0.687,8.513-1.029,12.8-1.024
                                                         C297.392,88.683,331.738,123.029,331.803,165.418z" />
                                             <path style="fill:#F5F5F5;"
@@ -220,8 +198,7 @@
                                                         c22.618-33.849,18.175-78.962-10.611-107.749c-2.142-2.218-5.315-3.108-8.299-2.327c-2.983,0.781-5.313,3.111-6.094,6.094
                                                         c-0.781,2.984,0.109,6.156,2.327,8.299c23.03,23.029,26.585,59.118,8.492,86.198c-18.093,27.08-52.796,37.608-82.885,25.146
                                                         c-30.089-12.462-47.186-44.444-40.833-76.387S223.435,99.152,256.003,99.151z" />
-                                            <path
-                                                d="M26.457,508.751H485.55c9.426,0.114,18.192-4.829,22.972-12.954c4.539-7.633,4.64-17.113,0.265-24.841l-52.48-93.867
+                                            <path d="M26.457,508.751H485.55c9.426,0.114,18.192-4.829,22.972-12.954c4.539-7.633,4.64-17.113,0.265-24.841l-52.48-93.867
                                                         c-4.745-8.34-13.624-13.466-23.219-13.406H372.27c-4.713,0-8.533,3.821-8.533,8.533c0,4.713,3.821,8.533,8.533,8.533h60.817
                                                         c3.416-0.066,6.603,1.715,8.337,4.659l52.463,93.867c1.429,2.442,1.399,5.471-0.077,7.885c-1.743,2.88-4.895,4.605-8.26,4.523
                                                         H26.457c-3.362,0.08-6.51-1.646-8.252-4.523c-1.476-2.414-1.505-5.443-0.077-7.885l52.463-93.867
@@ -231,11 +208,9 @@
                                             <path
                                                 d="M418.137,406.351h-34.133c-1.685,0.003-3.332,0.501-4.736,1.434l-25.6,17.067c-3.921,2.616-4.979,7.915-2.364,11.836
                                                         c2.616,3.921,7.915,4.979,11.836,2.364l23.424-15.633h31.573c4.713,0,8.533-3.82,8.533-8.533S422.85,406.351,418.137,406.351z" />
-                                            <path
-                                                d="M366.937,466.084c0,4.713,3.82,8.533,8.533,8.533h68.267c4.713,0,8.533-3.82,8.533-8.533s-3.821-8.533-8.533-8.533H375.47
+                                            <path d="M366.937,466.084c0,4.713,3.82,8.533,8.533,8.533h68.267c4.713,0,8.533-3.82,8.533-8.533s-3.821-8.533-8.533-8.533H375.47
                                                         C370.757,457.551,366.937,461.371,366.937,466.084z" />
-                                            <path
-                                                d="M153.603,440.484c3.762,0.005,7.083-2.455,8.176-6.055c1.093-3.6-0.301-7.491-3.431-9.578l-25.6-17.067
+                                            <path d="M153.603,440.484c3.762,0.005,7.083-2.455,8.176-6.055c1.093-3.6-0.301-7.491-3.431-9.578l-25.6-17.067
                                                         c-1.406-0.934-3.056-1.433-4.745-1.434H93.87c-4.713,0-8.533,3.82-8.533,8.533s3.821,8.533,8.533,8.533h31.573l23.45,15.633
                                                         C150.288,439.981,151.927,440.48,153.603,440.484z" />
                                             <path d="M68.27,457.551c-4.713,0-8.533,3.821-8.533,8.533s3.821,8.533,8.533,8.533h68.267c4.713,0,8.533-3.82,8.533-8.533
@@ -252,8 +227,8 @@
                     <div class="col-sm-4 text-center">
                         <div class="contact_info">
                             <div class="info_img">
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 512.076 512.076" width="35px" height="40px">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.076 512.076" width="35px"
+                                    height="40px">
                                     <g transform="translate(-1 -1)">
                                         <g transform="translate(2 2)">
                                             <path style="fill:#558B30;"
@@ -287,8 +262,7 @@
                                                         l5.606,3.089c12.966,7.269,29.303,3.898,38.332-7.91l30.182-38.801c4.224-5.381,11.87-6.62,17.579-2.85l103.637,69.12
                                                         c5.819,3.863,7.564,11.622,3.959,17.604l-26.001,43.341c-5.746,9.832-15.072,17.061-26.027,20.173
                                                         c-52.497,14.413-144.213,2.475-283.008-136.32S8.29,124.559,22.703,72.054z" />
-                                            <path
-                                                d="M291.161,86.39c80.081,0.089,144.977,64.986,145.067,145.067c0,4.713,3.821,8.533,8.533,8.533
+                                            <path d="M291.161,86.39c80.081,0.089,144.977,64.986,145.067,145.067c0,4.713,3.821,8.533,8.533,8.533
                                                         c4.713,0,8.533-3.821,8.533-8.533c-0.099-89.503-72.631-162.035-162.133-162.133c-4.713,0-8.533,3.82-8.533,8.533
                                                         C282.628,82.569,286.448,86.39,291.161,86.39z" />
                                             <path d="M291.161,137.59c51.816,0.061,93.806,42.051,93.867,93.867c0,4.713,3.82,8.533,8.533,8.533s8.533-3.821,8.533-8.533
@@ -308,8 +282,8 @@
                     <div class="col-sm-4 text-center">
                         <div class="contact_info">
                             <div class="info_img">
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 511.991 511.991" width="40px" height="40px">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.991 511.991" width="40px"
+                                    height="40px">
                                     <g>
                                         <g transform="translate(1 1)">
                                             <path style="fill:#607D8B;"

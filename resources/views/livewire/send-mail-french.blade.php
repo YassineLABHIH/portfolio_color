@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="port_hadding_style_sec">
-                            <h2 class="port_head_wrapper">Mon contact</h2>
+                            <h2 class="port_head_wrapper">Contact</h2>
                         </div>
                     </div>
                     <div class="col-12">
@@ -17,17 +17,16 @@
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <input wire:model.lazy='first_name' type="text" name="first_name"
-                                                class="form-control require" id="name" placeholder="First name">
+                                                class="form-control require" id="name" placeholder="Prénom">
                                             @error('first_name')
                                             <p class="response">{{ $message }}</p>
                                             @enderror
                                         </div>
-
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <input wire:model.lazy='last_name' type="text" name="last_name"
-                                                class="form-control require" id="last-name" placeholder="Last name">
+                                                class="form-control require" id="last-name" placeholder="Nom">
                                             @error('last_name')
                                             <p class="response">{{ $message }}</p>
                                             @enderror
@@ -36,7 +35,7 @@
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <input wire:model.lazy='email' type="email" name="email"
-                                                class="form-control require" id="email" placeholder="Email Address"
+                                                class="form-control require" id="email" placeholder="Adresse Mail"
                                                 data-valid="email" data-error="Email should be valid.">
                                             @error('email')
                                             <p class="response">{{ $message }}</p>
@@ -46,55 +45,54 @@
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <input wire:model.lazy='tel' type="tel" name="tel"
-                                                class="form-control require" id="tel" placeholder="Phone number">
+                                                class="form-control require" id="tel" placeholder="Numéro de téléphone">
                                             @error('tel')
                                             <p class="response">{{ $message }}</p>
                                             @enderror
                                         </div>
                                     </div>
                                     <div class="select_services row">
-                                        <p class="mb-3">What service(s) do you need ?</p>
+                                        <p class="mb-3">De quel(s) service(s) avez-vous besoin ?</p>
                                         <div class="col-6">
                                             <div class="service_checkbox">
                                                 <p><input class="accent-yellow" type="checkbox" name="" id="">
-                                                    Showcase
-                                                    site</p>
+                                                    Site vitrine</p>
                                             </div>
                                             <div class="service_checkbox">
                                                 <p><input class="accent-pink" type="checkbox" name="" id="">
-                                                    E-commerce
-                                                    site</p>
-                                            </div>
-                                            <div class="service_checkbox">
-                                                <p><input class="accent-orange" type="checkbox" name="" id=""> Web
-                                                    application</p>
-                                            </div>
-                                            <div class="service_checkbox">
-                                                <p><input class="accent-cyan" type="checkbox" name="" id="">
-                                                    Mobile app
+                                                    Site e-commerce
                                                 </p>
                                             </div>
                                             <div class="service_checkbox">
-                                                <p><input class="accent-yellow" type="checkbox" name="" id=""> Other
+                                                <p><input class="accent-orange" type="checkbox" name="" id="">
+                                                    Application web</p>
+                                            </div>
+                                            <div class="service_checkbox">
+                                                <p><input class="accent-cyan" type="checkbox" name="" id="">
+                                                    Application mobile
+                                                </p>
+                                            </div>
+                                            <div class="service_checkbox">
+                                                <p><input class="accent-yellow" type="checkbox" name="" id=""> Autre
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="service_checkbox">
                                                 <p><input class="accent-yellow" type="checkbox" name="" id="">
-                                                    Graphic
-                                                    design</p>
+                                                    Conception graphique</p>
                                             </div>
                                             <div class="service_checkbox">
-                                                <p><input class="accent-pink" type="checkbox" name="" id=""> SEO
+                                                <p><input class="accent-pink" type="checkbox" name="" id="">
+                                                    Référencement
                                                 </p>
                                             </div>
                                             <div class="service_checkbox">
                                                 <p><input class="accent-orange" type="checkbox" name="" id="">
-                                                    Advertisement</p>
+                                                    Publicité</p>
                                             </div>
                                             <div class="service_checkbox">
-                                                <p><input class="accent-cyan" type="checkbox" name="" id=""> Video
+                                                <p><input class="accent-cyan" type="checkbox" name="" id=""> Vidéo
                                                 </p>
                                             </div>
                                         </div>
@@ -102,7 +100,7 @@
                                     <div class="col-sm-12">
                                         <div class="form-group">
                                             <input wire:model.lazy='subject' type="text" name="subject"
-                                                class="form-control" id="subject" placeholder="Subject">
+                                                class="form-control" id="subject" placeholder="Sujet">
                                             @error('subject')
                                             <p class="response">{{ $message }}</p>
                                             @enderror
@@ -122,8 +120,8 @@
                                         <div class="banner_btn">
                                             <button type="submit" data-type="contact"
                                                 class="portfolio_btn btn_red submitForm">
-                                                <span class="first_text">Submit</span>
-                                                <span class="second_text">Send</span>
+                                                <span class="first_text">Soumettre</span>
+                                                <span class="second_text">Envoyer</span>
                                             </button>
                                         </div>
                                     </div>
@@ -220,7 +218,7 @@
                                     </g>
                                 </svg>
                             </div>
-                            <h2 class="footer_heading">Location</h2>
+                            <h2 class="footer_heading">Adresse</h2>
                             <p>Saint-Etienne-du-Rouvray</p>
                             <p>Normandie - France</p>
                         </div>
@@ -276,8 +274,8 @@
                                     </g>
                                 </svg>
                             </div>
-                            <h2 class="footer_heading">Contact Me</h2>
-                            <p><a href="javascript:;">+(33)7 49 91 12 11</a></p>
+                            <h2 class="footer_heading">Appelez moi</h2>
+                            <p><a href="tel:+33749911211">+(33)7 49 91 12 11</a></p>
                         </div>
                     </div>
                     <div class="col-sm-4 text-center">
@@ -336,8 +334,9 @@
                                     </g>
                                 </svg>
                             </div>
-                            <h2 class="footer_heading">Email Me</h2>
-                            <p><a href="javascript:;">contact@yassinelabhih.com</a></p>
+                            <h2 class="footer_heading">Envoyez moi un email</h2>
+                            <p><a href="mailto:contact@yassinelabhih.com" target="blank">contact@yassinelabhih.com</a>
+                            </p>
                         </div>
                     </div>
                 </div>
